@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="icon" href="IMG/faviconPoke.png" type="image/x-icon" />
+</head>
+
+<body>
     <header>
-      <p>POKEMON</p>
+        <nav class="cjaNavegacion">
+            <ul class="listaElemtos">
+                <li class="elemtosNav"><a href="#">Home</a></li>
+                <li class="elemtosNav"><a href="#">Pokédex</a></li>
+                <li class="elemtosNav"><a href="#">Dictionary</a></li>
+            </ul>
+        </nav>
     </header>
-
     <main>
-      <section>
+        <section class="vistaAdicional">
+            <div class="conteinerSlider">
+                <ul class="listaImg">
+                    <li class="elementosSlider"><img class="banners" src="IMG/fondopoke.png"></li>
+                    <li class="elementosSlider"><img class="banners" src="IMG/fondopoke.png"></li>
+                    <li class="elementosSlider"><img class="banners" src="IMG/fondopoke.png"></li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div>
+                <input type="text" id="search" placeholder="busqueda por nombre">
+            </div>
+            <div>
+                <p>Aqui va el menu</p>
+            </div>
+            <div id="container-pokemon">
 
-      </section>
+            </div>
+        </section>
+        <section>
 
-      <section>
-        <div>
-          <p>Aqui va el buscador</p>
-        </div>
-        <div>
-          <p>Aqui va el menu</p>
-        </div>
-        <div>
-          <p>aqui van los pokemones</p>
-          <div id="container-pokemon" >
-            
-          </div>
-        </div>
-
-      </section>
-
-
-      <section>
-        
-      </section>
-
+        </section>
     </main>
-
-    <footer>
-      <p>aqui va el footer</p>
+    <footer class="footer">
+        <p class="piepag">© Copyright by Shirley Garrido Navarro Ft Sandra Zapata - 2020</p>
     </footer>
     <script src="main.js" type="module"></script>
-  </body>
+</body>
+
 </html>

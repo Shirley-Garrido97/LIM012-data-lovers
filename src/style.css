@@ -1,28 +1,118 @@
-
-body{
-    background-color: blue;
+body {
+    background-color: white;
+    font-family: sans-serif;
 }
-#container-pokemon{
-    background-color: antiquewhite;
+
+#container-pokemon {
+    background-color: white;
     padding: 2em;
-    grid-template-columns: 1fr 1fr;
-    gap: 0em;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 1.5em;
 }
 
-
-.pokemon-name{
-    font-family: cursive;
+.poke-name {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
 }
-.pokemon-group{
+
+.pokemon-group {
     background-color: coral;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0em;
 }
-.pokemon-img{
-    background-color: blueviolet;
-}
-.pokemon-info{
-    background-color: chartreuse;
+
+.pokemon-img {
+    background-color: rgb(220, 248, 231);
+    border: solid 1px rgb(122, 201, 177);
+    text-align: center;
+    padding: 1em;
 }
 
+.pokemon-info {
+    background-color: white;
+    border: solid 1px #DDDDDD;
+    padding-left: 1em;
+    font-size: 14px;
+}
+
+.listaElemtos {
+    padding: 0;
+    margin: 0;
+    background: #2e2e2a;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.elemtosNav {
+    list-style: none;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+a:hover {
+    background: #15cec5;
+    color: #000;
+}
+
+.banners {
+    width: 1349px;
+    height: 500px;
+}
+
+.conteinerSlider {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.elementosSlider {
+    display: table-cell;
+}
+
+.listaImg {
+    padding: 0;
+    margin: 0;
+    width: 1349px;
+    height: 500px;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    animation-name: sliderAnimation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes sliderAnimation {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: -1349px;
+    }
+    100% {
+        left: -2698px;
+    }
+}
+
+.footer {
+    background-color: #000;
+    color: white;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    margin: 0;
+}
