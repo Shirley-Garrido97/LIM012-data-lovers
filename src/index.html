@@ -29,15 +29,54 @@
             </div>
         </section>
         <section>
-            <form>
+            <form class="barraSearch">
                 <div>
-                    <input type="search" id="miBusqueda" placeholder="Search the site..." widht="30px" size="50">
-                    <button>SEARCH</button>
+                    <input type="search" class="search" placeholder=" Search the site... " size="60">
+                    <button class="btn-search">Search</button>
                 </div>
             </form>
 
-            <div>
-                <p>Aqui va el menu</p>
+            <div class="barraMenu">
+
+                <label for="filters"> Type </label>
+                <select class="filters" name="" id="selectType">
+                  <option value="1">Bug</option>
+                  <option value="2">Dark</option>
+                  <option value="3">Dragon</option>
+                  <option value="4">Electric</option>
+                  <option value="5">Fairy</option>
+                  <option value="6">Fighting</option>
+                  <option value="7">Fire</option>
+                  <option value="8">Flying</option>
+                  <option value="9">Ghost</option>
+                  <option value="10">Grass</option>
+                  <option value="11">Ground</option>
+                  <option value="12">Ice</option>
+                  <option value="13">Normal</option>
+                  <option value="14">Poison</option>
+                  <option value="15">Psychic</option>
+                  <option value="16">Rock</option>
+                  <option value="17">Steel</option>
+                </select>
+
+                <label for="filters"> Filter </label>
+                <select class="filters">
+                  <option>CP</option>
+                  <option>HP</option>
+                  <option>IV</option>
+                  <option>Weaknesses</option>
+                  <option>Resistence</option>
+                  <option>Egg</option>
+                </select>
+
+                <label for="filters"> Order </label>
+                <select class="filters">
+                  <option> ID </option>
+                  <option>Highest to Lowest</option>
+                  <option>Lowest to Highest </option>
+                  <option>A - Z</option>
+                  <option>Z - A</option>
+                </select>
             </div>
             <div id="container-pokemon">
 

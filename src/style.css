@@ -18,6 +18,17 @@ body {
     font-size: 20px;
 }
 
+.poke-num {
+    font-weight: lighter;
+    color: rgb(134, 131, 131);
+    font-size: 14px;
+}
+
+.poke-info {
+    font-weight: bold;
+    font-size: 15px;
+}
+
 .pokemon-group {
     background-color: coral;
     display: grid;
@@ -42,7 +53,7 @@ body {
 .listaElemtos {
     padding: 0;
     margin: 0;
-    background: #2e2e2a;
+    background-color: rgb(18, 19, 19);
     line-height: 50px;
     font-size: 20px;
     text-align: right;
@@ -50,9 +61,11 @@ body {
 
 .elemtosNav {
     list-style: none;
-    width: 100px;
+    width: 150px;
     display: inline-block;
     text-align: center;
+    margin-left: 1em;
+    font-size: 15px;
 }
 
 a {
@@ -62,8 +75,8 @@ a {
 }
 
 a:hover {
-    background: #15cec5;
-    color: #000;
+    background: #54b9b1;
+    color: #fff;
 }
 
 .banners {
@@ -106,6 +119,43 @@ a:hover {
     100% {
         left: -2698px;
     }
+}
+
+.search {
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.barraSearch {
+    text-align: center;
+    margin: 2em;
+}
+
+.btn-search {
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(30, 32, 31);
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+.barraMenu {
+    background-color: rgb(27, 29, 29);
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+}
+
+.filters {
+    text-align: center;
+    margin: 1em;
+    margin-left: 1em;
 }
 
 .footer {
