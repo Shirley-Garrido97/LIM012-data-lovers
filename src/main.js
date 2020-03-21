@@ -2,10 +2,10 @@ import data from './data/pokemon/pokemon.js';
 const pokemonList = data.pokemon;
 const showPokemon = (list) => {
     const containerPokemon = document.getElementById('container-pokemon');
-    Object.values(list).map((pokem) => {
+    list.forEach((pokem) => {
         const card = `          
       <div class="pokemon-group">
-        <div class="pokemon-img">
+        <div class="pokemon-img"> 
           <img src="${pokem.img}">
         </div>
         <div class="pokemon-info">
@@ -19,3 +19,9 @@ const showPokemon = (list) => {
     });
 };
 showPokemon(pokemonList);
+
+
+const x = document.getElementById('selectType');
+x.addEventListener('change', () => {
+    console.log(x.value);
+});
