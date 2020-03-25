@@ -2,108 +2,116 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="IMG/faviconPoke.png" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
-
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="IMG/faviconPoke.png" type="image/x-icon" />
+  <meta charset="utf-8">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header>
-        <nav class="cjaNavegacion">
-            <ul class="listaElemtos">
-                <li class="elemtosNav"><a href="#">Home</a></li>
-                <li class="elemtosNav"><a href="#">Pokédex</a></li>
-                <li class="elemtosNav"><a href="#">Dictionary</a></li>
-            </ul>
+  <div id="view1">
+    <section class="home">
+      <video autoplay muted loop id="myVideo">
+        <source type="video/mp4" src="IMG/pokeVideo.mp4">
+      </video>
+
+      <div class="content">
+        <h1>WELCOME</h1>
+        <p>Discover all the details of the best game in history, Pokemon Go and prepare to become a true Pokemon Master.
+        </p>
+        <button type="button" id="btnStart">Start</button>
+      </div>
+    </section>
+  </div>
+
+  <div id="view2" class="hide">
+    <header class="header" id="myHeader">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img class="img-menu" src="img/icon-menu.png"></label>
+        <nav class="navbar"> 
+          <ul class="list-elements-nav">
+            <li><a href="#" id="home">HOME</a></li>
+            <li><a href="#view2">POKÉDEX</a></li>
+            <li><a href="#view3">DICTIONARY</a></li>
+          </ul>
         </nav>
     </header>
-    <main>
-        <section class="c">
-            <video autoplay loop muted height="44px" src="IMG/pokeVideo.mp4" type="video/mp4"></video>
-        </section>
-        <!--section class="vistaAdicional">
-            <div class="conteinerSlider">
-                <ul class="listaImg">
-                    <li class="elementosSlider"><img class="banners" src="IMG/fondopoke.png"></li>
-                    <li class="elementosSlider"><img class="banners" src="IMG/fondopoke.png"></li>
-                    <li class="elementosSlider"><img class="banners" src="IMG/fondopoke.png"></li>
-                </ul>
-            </div>
-        </section>
-        <section class="pokedex">
-            <form class="barraSearch">
-                <div>
-                    <input type="search" class="search" placeholder="   Search by name ... " size="60">
-                    <button class="btn-search">Search</button>
-                </div>
-            </form>-->
 
-        <div class="barraMenu">
-
-            <label for="filters"> Type </label>
-            <select class="filters" id="selectType">
-                  <option value="all" selected>All</option>
-                  <option value="bug">Bug</option>
-                  <option value="dark">Dark</option>
-                  <option value="dragon"> Dragon</option>
-                  <option value="electric">Electric</option>
-                  <option value="fairy">Fairy</option>
-                  <option value="fighting">Fighting</option>
-                  <option value="fire">Fire</option>
-                  <option value="flying">Flying</option>
-                  <option value="ghost">Ghost</option>
-                  <option value="grass">Grass</option>
-                  <option value="ground">Ground</option>
-                  <option value="ice">Ice</option>
-                  <option value="normal">Normal</option>
-                  <option value="poison">Poison</option>
-                  <option value="psychic">Psychic</option>
-                  <option value="rock">Rock</option>
-                  <option value="steel">Steel</option>
-                </select>
-
-            <label for="filters"> Order </label>
-            <select class="filters">
-                  <option>CP</option>
-                  <option>HP</option>
-                  <option>IV</option>
-                  <option>Weaknesses</option>
-                  <option>Resistence</option>
-                  <option>Egg</option>
-                </select>
-
-            <label for="filters"> By </label>
-            <select class="filters">
-                  <option> ID </option>
-                  <option>Highest to Lowest</option>
-                  <option>Lowest to Highest </option>
-                  <option>A - Z</option>
-                  <option>Z - A</option>
-                </select>
+    <main class="contentMain">
+      <section class="pokedex">
+        <div class="container-btn-top">
+          <img src="IMG/btnTop.png" class="btn-top">
+        </div>
+        <div class="searcher comun">
+          <input type="search" id="search" class="search comun" placeholder="search by name" size="60">
+          <button class="btn-search comun bold" id="btn">Search</button>
         </div>
 
+        <div class="menu-container comun bold">
+          <label for="element-type-filter"> Type </label>
+          <select id="element-type-filter">
+            <option value="all" selected>All</option>
+            <option value="bug">Bug</option>
+            <option value="dark">Dark</option>
+            <option value="dragon"> Dragon</option>
+            <option value="electric">Electric</option>
+            <option value="fairy">Fairy</option>
+            <option value="fighting">Fighting</option>
+            <option value="fire">Fire</option>
+            <option value="flying">Flying</option>
+            <option value="ghost">Ghost</option>
+            <option value="grass">Grass</option>
+            <option value="ground">Ground</option>
+            <option value="ice">Ice</option>
+            <option value="normal">Normal</option>
+            <option value="poison">Poison</option>
+            <option value="psychic">Psychic</option>
+            <option value="rock">Rock</option>
+            <option value="steel">Steel</option>
+          </select>
+
+          <label for="orders"> Order </label>
+          <select id="order-function">
+            <option>CP</option>
+            <option>HP</option>
+            <option>IV</option>
+            <option>Weaknesses</option>
+            <option>Resistence</option>
+            <option>Egg</option>
+          </select>
+
+          <label for="bys"> By </label>
+          <select id="by">
+            <option> ID </option>
+            <option>Highest to Lowest</option>
+            <option>Lowest to Highest </option>
+            <option>A - Z</option>
+            <option>Z - A</option>
+          </select>
+
+        </div>
         <div class="pokemones-quantity">
-            <p>Pokemones</p>
-            <p>Quantity: 251</p>
+          <p>Pokemones</p>
+          <p>Quantity: 251</p>
+        </div>
+        <div id="container-card">
+        </div>
+      </section>
 
 
-            <div id="container-pokemon">
-
-            </div>
-            </section>
-            <section>
-
-            </section>
+      <section id="view3" class="ocultar">
+        <p>Diccionario</p>
+      </section>
     </main>
+
+
     <footer class="footer">
-        <p class="piepag">© Copyright by Shirley Garrido Navarro Ft Sandra Zapata - 2020</p>
+      <p class="piepag">© Copyright by Shirley Garrido Ft Sandra Zapata - 2020</p>
     </footer>
-
-    <script src="main.js" type="module"></script>
-
+  </div>
+  <script src="main.js" type="module"></script>
 </body>
 
 </html>
