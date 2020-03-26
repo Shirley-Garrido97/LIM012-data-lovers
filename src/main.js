@@ -23,6 +23,7 @@ const elementTypeFilter = document.getElementById('element-type-filter');
 
 const showPokemon = (list) => {
   const containerPokemon = document.getElementById('container-card');
+  let count = 0;
   list.forEach((pokem) => {
     const card = `
     <div class="pokemon-group">
@@ -37,7 +38,9 @@ const showPokemon = (list) => {
       </div>
     </div>`;
     containerPokemon.innerHTML += card;
+    count++;
   });
+  document.getElementById('quantity').innerHTML = " Quantity : " + count;
   return containerPokemon;
 };
 
@@ -54,11 +57,16 @@ elementTypeFilter.addEventListener('change', () => {
     const catchFilter = filterByType(pokemonList, elementTypeFilter.value);
     containerPokemons.innerHTML = '';
     showPokemon(catchFilter);
+    /* document.getElementById('quantity').innerHTML = " Quantity : " + catchFilter.length; */
   }
-});
+})
+
+
 
 /* const typeFilter = pokemonList.filter(
-  pokemon => pokemon.type[0] === elementTypeFilter || pokemon.type[1] === elementTypeFilter); */
+  pokemon => pokemon.type[0] === elementTypeFilter || pokemon.type[1] === elementTypeFilter);
+
+  document.getElementById('quantity').innerHTML = " Quantity : " + todo.length;  */
 
 
 const btnSearch = document.getElementById('btn');

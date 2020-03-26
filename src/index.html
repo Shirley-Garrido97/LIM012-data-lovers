@@ -29,7 +29,7 @@
   <div id="view2" class="hide">
     <header class="header" id="myHeader">
         <input type="checkbox" id="btn-menu">
-        <label for="btn-menu"><img class="img-menu" src="img/icon-menu.png"></label>
+        <label for="btn-menu"></label>
         <nav class="navbar"> 
           <ul class="list-elements-nav">
             <li><a href="#" id="home">HOME</a></li>
@@ -40,6 +40,9 @@
     </header>
 
     <main class="contentMain">
+      <section class="banner">
+        <img src="IMG/banner2.png" id="banner">
+      </section>
       <section class="pokedex">
         <div class="container-btn-top">
           <img src="IMG/btnTop.png" class="btn-top">
@@ -70,6 +73,7 @@
             <option value="psychic">Psychic</option>
             <option value="rock">Rock</option>
             <option value="steel">Steel</option>
+            <option value="water">Water</option>
           </select>
 
           <label for="orders"> Order </label>
@@ -90,14 +94,11 @@
             <option>A - Z</option>
             <option>Z - A</option>
           </select>
+        </div>
 
-        </div>
-        <div class="pokemones-quantity">
-          <p>Pokemones</p>
-          <p>Quantity: 251</p>
-        </div>
-        <div id="container-card">
-        </div>
+        <p id="pokemones"> Pokemones </p>
+        <p id="quantity"></p>
+        <div id="container-card"></div>
       </section>
 
 
