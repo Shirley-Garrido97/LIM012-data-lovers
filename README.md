@@ -1,14 +1,9 @@
-# Data Lovers Pokémon Go ✨
+# Data Lovers
 
 ## Índice
 
-* [1. Descripción del proyecto 
-* [2. Vistas finales del proyecto
-* [3. Investigacion UX 
-* [4. Resumen de feedback de mejoras a realizar 
-* [5. Objetivos de aprendizaje
-* [6. Enlaces del proyecto 
-* [7. Trabajos Futuros 
+* [1. Resumen del proyecto](#1-resumen-del-proyecto)
+* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker edition](#6-hacker-edition)
@@ -18,44 +13,36 @@
 
 ***
 
-## 1. Descripción del proyecto 📋
+## 1. Resumen del proyecto
 
-Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 millones de terabytes de datos, una cifra sin
-precedentes.
+En este proyecto **construirás una _página web_ para visualizar un
+_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
+necesita.
 
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
-hacerlo es creando _interfaces_ y _visualizaciones_.
+Como entregable final tendrás una página web que permita **visualizar la data,
+filtrarla, ordenarla y hacer algún cálculo agregado**. Con cálculo agregado
+nos referimos a distintos cálculos que puedes hacer con la data para mostrar
+información aún más relevante para los usuarios (promedio, el valor máximo
+o mínimo, etc).
 
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir una interfaz amigable y entendible por el usuario
-al lado derecho.
+Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
+explores y decidas con qué temática te interesa trabajar. Hemos elegido
+específicamente estos sets de datos porque creemos que se adecúan bien a esta
+etapa de tu aprendizaje.
 
-![json-interfaz](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
+Una vez que definas tu área de interés, buscar entender quién es tu usuario
+y qué necesita saber o ver exactamente; luego podrás construir la interfaz que
+le ayude a interactuar y entender mejor esos datos.
 
-## 2. Vistas finales del proyecto 👀
+Estos son datos que te proponemos:
 
-Vista Web 💻
-Vista Mobile 📱
+* [Pokémon](src/data/pokemon/pokemon.json):
+  En este set encontrarás una lista con los 251 Pokémon de la región de Kanto
+  y Johto, junto con sus respectivas estadísticas usadas en el juego
+  [Pokémon GO](http://pokemongolive.com).
+   - [Investigación con jugadores de Pokémon Go](/src/data/pokemon/README.md)
 
-## 3. Investigacion UX 📎
-
-Usuarios y Objetivos en relacion al producto 👩 👨
-
-Solucion de problemas y necesidades de usuarios con el proyecto 📌
-
-Prototipado 📝
-
-Baja Fidelidad
-
-Alta Fidelidad
-
-## 4.Resumen de feedback de mejoras a realizar 📋
-
-## 5. Objetivos de aprendizaje 🏆
+## 3. Objetivos de aprendizaje
 
 El objetivo principal de este proyecto es que, entendiendo las necesidades de
 tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda
@@ -67,52 +54,47 @@ y de equipo.
 
 ### UX
 
-- [✔️] Diseñar la aplicación pensando y entendiendo al usuario.
-- [✔️] Crear prototipos para obtener _feedback_ e iterar.
-- [✔️] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
-- [✔️] Planear y ejecutar _tests_ de usabilidad.
+- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ ] Crear prototipos para obtener _feedback_ e iterar.
+- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [ ] Planear y ejecutar _tests_ de usabilidad.
 
 ### HTML y CSS
 
-- [✔️] Entender y reconocer por qué es importante el HTML semántico.
-- [✔️] Identificar y entender tipos de selectores en CSS.
-- [✔️] Entender como funciona `flexbox` en CSS.
-- [✔️] Construir tu aplicación respetando el diseño planeado (maquetación).
+- [ ] Entender y reconocer por qué es importante el HTML semántico.
+- [ ] Identificar y entender tipos de selectores en CSS.
+- [ ] Entender como funciona `flexbox` en CSS.
+- [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
 
 ### DOM
 
-- [✔️] Entender y reconocer los selectores del DOM (`querySelector` | `querySelectorAll`).
-- [✔️] Manejar eventos del DOM. (`addEventListener`)
-- [✔️] Manipular dinámicamente el DOM. (`createElement`, `appendchild`, `innerHTML`, `value`)
+- [ ] Entender y reconocer los selectores del DOM (`querySelector` | `querySelectorAll`).
+- [ ] Manejar eventos del DOM. (`addEventListener`)
+- [ ] Manipular dinámicamente el DOM. (`createElement`, `appendchild`, `innerHTML`, `value`)
 
 ### Javascript
 
-- [✔️] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
-- [✔️] Manipular objects (key | value).
-- [✔️] Entender el uso de condicionales (`if-else` | `switch`).
-- [✔️] Entender el uso de bucles (`for` | `forEach`).
-- [✔️] Entender la diferencia entre expression y statements.
-- [✔️] Utilizar funciones (`parámetros` | `argumentos` | `valor de retorno`).
-- [🤔] Entender la diferencia entre tipos de datos atómicos y estructurados.
-- [✔️] Utilizar ES Modules (`import` | `export`).
+- [ ] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
+- [ ] Manipular objects (key | value).
+- [ ] Entender el uso de condicionales (`if-else` | `switch`).
+- [ ] Entender el uso de bucles (`for` | `forEach`).
+- [ ] Entender la diferencia entre expression y statements.
+- [ ] Utilizar funciones (`parámetros` | `argumentos` | `valor de retorno`).
+- [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
+- [ ] Utilizar ES Modules (`import` | `export`).
 
 ### Pruebas Unitarias (_testing_)
-- [🤔] Testear funciones (funciones puras).
+- [ ] Testear funciones (funciones puras).
 
 ### Git y GitHub
-- [✔️] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-- [✔️] Utilizar los repositorios de GitHub (`clone` | `fork` | `gh-pages`).
-- [✔️] Colaborar en Github (`pull requests`).
+- [ ] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
+- [ ] Utilizar los repositorios de GitHub (`clone` | `fork` | `gh-pages`).
+- [ ] Colaborar en Github (`pull requests`).
 
 ### Buenas prácticas de desarrollo
-- [✔️] Organizar y dividir el código en módulos (Modularización).
-- [✔️] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-- [✔️] Utilizar linter para seguir buenas prácticas (ESLINT).
-
-## 5. Enlaces del proyecto 📎
-
-## 6.  Trabajos Futuros 🔮
-
+- [ ] Organizar y dividir el código en módulos (Modularización).
+- [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
 
 ## 4. Consideraciones generales
 
