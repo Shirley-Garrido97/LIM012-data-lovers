@@ -37,48 +37,48 @@ Esta página web es la nueva propuesta de actualización, para la página origin
 
 #### 3.1 Investigación con Jugadores/ Jugadoras de Pokémon Go
 
-App
+* App
 
 Pokémon Go, consiste en buscar y capturar personajes de la saga Pokémon escondidos en ubicaciones del mundo real y luchar con ellos, lo que implica desplazarse físicamente por las calles de la ciudad para progresar. La aplicación comporta un elemento de interacción social, ya que promueve reuniones físicas de los usuarios en distintas ubicaciones de sus poblaciones.
 
-Hallazgos
+* Hallazgos
 
 Los entrenadores de Pokémon Go tienen como objetivo coleccionar diferentes tipos de Pokémon para completar su Pokédex. Además, usan sus Pokémon para enfrentarse a otros entrenadores u otros Pokémon mientras realizan incursiones y batallan en gimnasios.
 
-1.- Atrapar y coleccionar los Pokémon
+* 1.- Atrapar y coleccionar los Pokémon
 
 Los Pokémon aparecen en estado salvaje (mientras caminan por la calle) donde pueden ser capturados por los entrenadores. Hay Pokémon que aparecen con más frecuencia que otros. Por ejemplo, es muy difícil encontrar alguna evolución de un Pokémon. Algunos Pokémon pueden evolucionar a otra forma (ej. Pikachu a Raichu), pero necesitan una cantidad determinada de caramelos para poder evolucionar, los cuales se obtienen cada vez que captura a un Pokémon de su misma especie. Por ejemplo, cada vez que se captura a un Pikachu el entrenador obtiene 3 caramelos tipo Pikachu. Al final necesita 25 para poder evolucionarlo a Raichu. La cantidad de caramelos necesaria para evolucionar un Pokémon varía de una especie a otra.
 
-2.- Datos que te ayudarán a atrapar y coleccionar pokémones
+* 2.- Datos que te ayudarán a atrapar y coleccionar pokémones
 
-•	Los Pokémon tienen características únicas que determinan las decisiones que toma el usuario (tipo, tamaño, info, etc).
-•	Encounter: % Base de Huida y % Base de Captura.
-•	Spaw-chance: Frecuencia de aparición de un pokémon.
-•	Egg: En qué tipo de huevos aparece el pokémon.
-•	Buddy-distance-km: Distancia en km que debe caminar el usuario con un pokémon con buddy para obtener 1 caramelo de dicho pokémon.
-•	Evolution: Tipo de caramelo, siguiente evolución y anterior evolución, si necesita algún ítem para evolucionar.
+-	Los Pokémon tienen características únicas que determinan las decisiones que toma el usuario (tipo, tamaño, info, etc).
+-	Encounter: % Base de Huida y % Base de Captura.
+-	Spaw-chance: Frecuencia de aparición de un pokémon.
+-	Egg: En qué tipo de huevos aparece el pokémon.
+-	Buddy-distance-km: Distancia en km que debe caminar el usuario con un pokémon con buddy para obtener 1 caramelo de dicho pokémon.
+-	Evolution: Tipo de caramelo, siguiente evolución y anterior evolución, si necesita algún ítem para evolucionar.
 
-3.- Pelear para ganar gimnasios, incursiones y a otros entrenadores
+* 3.- Pelear para ganar gimnasios, incursiones y a otros entrenadores
 
 Los Pokémon y sus ataques son de distintos tipos. Por ejemplo, Pikachu es de tipo eléctrico y tiene ataques eléctricos y normales. Tener presente esta característica es importante cuando un entrenador elige al Pokémon más adecuado para su batalla. Por ejemplo, hay Pokémon que son débiles ante ataques de fuego y otros que resisten más este tipo de ataques. Por eso un entrenador necesita saber cuáles son los mejores ataques (por tipo) por cada Pokémon.
 Además, en incursiones o peleas de gimnasios, un entrenador necesita armar un equipo equilibrado de Pokémon con diferentes tipos para hacer el mayor daño posible y ayudar a su equipo.
 
-4.- Datos que te ayudarán para pelear
+* 4.- Datos que te ayudarán para pelear
 
-•	Stats: Base de Ataque, Defensa y Salud + máx. CP (máx. puntos de combate) y máx. HP (máx. puntos de salud).
-•	Resistant: A qué tipos de pokémon es resistente.
-•	Weaknesses: Contra qué tipos de pokémon es débil.
-•	Quick-move: Movimientos rápidos.
-•	Special-attack: Ataques especiales
+-	Stats: Base de Ataque, Defensa y Salud + máx. CP (máx. puntos de combate) y máx. HP (máx. puntos de salud).
+-	Resistant: A qué tipos de pokémon es resistente.
+-	Weaknesses: Contra qué tipos de pokémon es débil.
+-	Quick-move: Movimientos rápidos.
+-	Special-attack: Ataques especiales
 
-5.- Datos que puedo obtener de acá
+* 5.- Datos que puedo obtener de acá
 
-•	Qué pokémon tiene mayor punto de combate y mayor punto de salud.
-•	Algunas veces el usuario tiene que elegir a los que tienen menos cantidad de debilidades y/o resistencia y saber de qué tipo son. Por ello, es importante para un maestro Pokémon poder ordenarlos por estas 3 características.
-•	STAB: (Same Type Attack Bonus, traducido como Bonificación por Ataque del Mismo Tipo). Se calcula así: si el Pokémon que usa el movimiento es del mismo tipo que el movimiento, el daño aumenta en un 20%
-•	DPS (daño por segundo): Se calcula dividiendo el daño base del movimiento por el STAB entre el tiempo que toma el movimiento.
-•	EPS (energía por movimiento): Se calcula dividiendo la energía entre el tiempo que toma el movimiento.
-•	El mejor set de movimientos: calcula cuál es la mejor combinación de quick-move con special-attack para ataque y defensa en gimnasios, acá te dejamos este video que te explica como calcularlo (solo una diferencia, considera 20% para STAB, en lugar de 25%).
+-	Qué pokémon tiene mayor punto de combate y mayor punto de salud.
+-	Algunas veces el usuario tiene que elegir a los que tienen menos cantidad de debilidades y/o resistencia y saber de qué tipo son. Por ello, es importante para un maestro Pokémon poder ordenarlos por estas 3 características.
+-	STAB: (Same Type Attack Bonus, traducido como Bonificación por Ataque del Mismo Tipo). Se calcula así: si el Pokémon que usa el movimiento es del mismo tipo que el movimiento, el daño aumenta en un 20%
+-	DPS (daño por segundo): Se calcula dividiendo el daño base del movimiento por el STAB entre el tiempo que toma el movimiento.
+-	EPS (energía por movimiento): Se calcula dividiendo la energía entre el tiempo que toma el movimiento.
+- El mejor set de movimientos: calcula cuál es la mejor combinación de quick-move con special-attack para ataque y defensa en gimnasios, acá te dejamos este video que te explica como calcularlo (solo una diferencia, considera 20% para STAB, en lugar de 25%).
 Nota: Tanto quick move como special attack tienen información de cada movimiento: nombre, tipo, base de daño, energía, duración del movimiento(seg).
 
 #### 3.2 Público Objetivo
@@ -135,9 +135,9 @@ Nota: Tanto quick move como special attack tienen información de cada movimient
 
 ## 5. Consideraciones generales
 
-•	Este proyecto se realizó en dupla
-•	El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub Pages.
-•	Tiempo para completarlo: Toma como referencia 4 semanas.
+- Este proyecto se realizó en dupla
+-	El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub Pages.
+-	Tiempo para completarlo: Toma como referencia 4 semanas.
 
 ## 6. Pruebas Unitarias
 
