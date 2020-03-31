@@ -137,8 +137,8 @@ Nota: Tanto quick move como special attack tienen información de cada movimient
 ## 5. Consideraciones generales
 
 - Este proyecto se realizó en dupla
-![Identicket Sandra Zapata](https://user-images.githubusercontent.com/60928765/78052038-2beacd00-7344-11ea-9939-dfdfd56781bb.png)
-![Identicket Shirley Garrido](https://user-images.githubusercontent.com/60928765/78052041-2c836380-7344-11ea-8655-19f3bd61236f.png)
+![Identicket Sandra Zapata](https://user-images.githubusercontent.com/60928765/78052249-766c4980-7344-11ea-91de-dd1d3b270eee.png)![Identicket Shirley Garrido](https://user-images.githubusercontent.com/60928765/78052251-7704e000-7344-11ea-9f9d-47b2f02ea2ad.png)
+
 -	El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub Pages.
 -	Tiempo para completarlo: Toma como referencia 4 semanas.
 
