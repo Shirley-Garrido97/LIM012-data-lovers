@@ -1,6 +1,14 @@
-Data Lovers – Pokémon G 
-Índice
-•	1. Resumen del proyecto
+# Data Lovers – Pokémon Go
+
+## Índice
+* [1. Resumen del proyecto](#1-Resumen del proyecto)
+* [2. Descripción del proyecto](#2-Descripción del proyecto)
+* [2.1 Proceso Creativo de Diseño](#2.1-Proceso Creativo de Diseño)
+* [2.2 Vista Final Desktop](#2.2-Vista Final Desktop)
+* [2.3 Vista Final Mobile](#2.3-Vista Final Mobile)
+* [2.4 Vista Final Tablet](#2.4-Vista Final Tablet)
+* [3. Investigación UX ](#3-Investigación UX)
+* [3.1 Investigación con Jugadores/ Jugadoras de Pokémon Go ](#3.1-Investigación con Jugadores/ Jugadoras de Pokémon Go)
 •	3. Objetivos de aprendizaje
 •	4. Consideraciones generales
 •	5. Criterios de aceptación mínimos del proyecto
@@ -8,24 +16,26 @@ Data Lovers – Pokémon G
 •	7. Consideraciones técnicas
 •	8. Pistas, tips y lecturas complementarias
 •	9. Checklist
-________________________________________
-1. Resumen del proyecto
+
+***
+
+## 1. Resumen del proyecto
 
 Este proyecto tiene como finalidad construir una página web, en la cual va interactuar con una base de datos externa, la misma que cuenta con la información de los 251 Pokémones de la región de Kanto y Johto. Por el cual, se va importar y extraer los datos requeridos, según las necesidades de nuestrxs usuarixs.
 Logrando que puedan visualizar, la información deseada, de manera precisa y clara. En la cual lxs usuarixs podrán interactuar filtrando, ordenando y obteniendo un cálculo agregado de la data, para una mejor comprensión de la misma.
 
-2. Descripción del proyecto 
+## 2. Descripción del proyecto 
 
 Esta página web es la nueva propuesta de actualización, para la página original de Pokémon Go, en la cual añade información relevante para los usuarios nuevos y antiguos del juego para móvil, con la finalidad de mejorar la experiencia que estos tienen, ya que podrán comprar diversas cualidades de los pokémones, permitiendo mejorar sus estrategias, así como una inserción rápida en el juego para aquellos que recién comienzan.
 
-2.1 Proceso Creativo de Diseño
-2.2 Vista Final Desktop
-2.3 Vista Final Mobile
-2.4 Vista Final Tablet
+#### 2.1 Proceso Creativo de Diseño
+#### 2.2 Vista Final Desktop
+#### 2.3 Vista Final Mobile
+#### 2.4 Vista Final Tablet
 
-3. Investigación UX 
+## 3. Investigación UX 
 
-3.1 Investigación con Jugadores/ Jugadoras de Pokémon Go
+#### 3.1 Investigación con Jugadores/ Jugadoras de Pokémon Go
 
 App
 
@@ -70,84 +80,86 @@ Además, en incursiones o peleas de gimnasios, un entrenador necesita armar un e
 •	EPS (energía por movimiento): Se calcula dividiendo la energía entre el tiempo que toma el movimiento.
 •	El mejor set de movimientos: calcula cuál es la mejor combinación de quick-move con special-attack para ataque y defensa en gimnasios, acá te dejamos este video que te explica como calcularlo (solo una diferencia, considera 20% para STAB, en lugar de 25%).
 Nota: Tanto quick move como special attack tienen información de cada movimiento: nombre, tipo, base de daño, energía, duración del movimiento(seg).
-3.2 Público Objetivo
-3.3 Problemática y Necesidades de los Usuarios
-3.4 Propuesta de Valor
-3.5 Historiad de Usuario y Criterios de Aceptación
-3.6 Prototipo en Baja Fidelidad
-3.7 Testeo de Usabilidad y Feeback 
-3.8 Prototipo en Baja Fidelidad Pivoteado
-3.9 Prototipo Validado y en Alta Fidelidad
-3.10 Arquitectura de la información 
 
-4. Objetivos de aprendizaje
+#### 3.2 Público Objetivo
+#### 3.3 Problemática y Necesidades de los Usuarios
+#### 3.4 Propuesta de Valor
+#### 3.5 Historiad de Usuario y Criterios de Aceptación
+#### 3.6 Prototipo en Baja Fidelidad
+#### 3.7 Testeo de Usabilidad y Feeback 
+#### 3.8 Prototipo en Baja Fidelidad Pivoteado
+#### 3.9 Prototipo Validado y en Alta Fidelidad
+#### 3.10 Arquitectura de la información 
 
-UX
-• [] Diseñar la aplicación pensando y entendiendo al usuario.
-•	[] Crear prototipos para obtener feedback e iterar.
-•	[] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
-•	[] Planear y ejecutar tests de usabilidad.
+## 4. Objetivos de aprendizaje
 
-HTML y CSS
-• [] Entender y reconocer por qué es importante el HTML semántico.
-• [] Identificar y entender tipos de selectores en CSS.
-•	[] Entender cómo funciona flexbox en CSS.
-•	[] Construir tu aplicación respetando el diseño planeado (maquetación).
+### UX
+- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
+- [ ] Crear prototipos para obtener feedback e iterar.
+- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [ ] Planear y ejecutar tests de usabilidad.
 
-DOM
-•	[] Entender y reconocer los selectores del DOM (querySelector | querySelectorAll).
-•	[] Manejar eventos del DOM. (addEventListener)
-• [] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value).
+### HTML y CSS
+- [ ] Entender y reconocer por qué es importante el HTML semántico.
+- [ ] Identificar y entender tipos de selectores en CSS.
+- [ ] Entender cómo funciona flexbox en CSS.
+- [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
 
-Javascript
-• [] Manipular arrays (filter | map | sort | reduce).
-•	[] Manipular objects (key | value).
-• [] Entender el uso de condicionales (if-else | switch).
-•	[] Entender el uso de bucles (for | forEach).
-•	[] Entender la diferencia entre expression y statements.
-•	[] Utilizar funciones (parámetros | argumentos | valor de retorno).
-•	[] Entender la diferencia entre tipos de datos atómicos y estructurados.
-•	[] Utilizar ES Modules (import | export).
+### DOM
+- [ ] Entender y reconocer los selectores del DOM (querySelector | querySelectorAll).
+- [ ] Manejar eventos del DOM. (addEventListener)
+- [ ] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value).
 
-Pruebas Unitarias (testing)
-•	[] Testear funciones (funciones puras).
+### Javascript
+- [ ] Manipular arrays (filter | map | sort | reduce).
+- [ ] Manipular objects (key | value).
+- [ ] Entender el uso de condicionales (if-else | switch).
+- [ ] Entender el uso de bucles (for | forEach).
+- [ ] Entender la diferencia entre expression y statements.
+- [ ] Utilizar funciones (parámetros | argumentos | valor de retorno).
+- [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
+- [ ] Utilizar ES Modules (import | export).
 
-Git y GitHub
-•	[] Ejecutar comandos de git (add | commit | pull | status | push).
-•	[] Utilizar los repositorios de GitHub (clone | fork | gh-pages).
-•	[] Colaborar en Github (pull requests).
+### Pruebas Unitarias (testing)
+- [ ] Testear funciones (funciones puras).
 
-Buenas prácticas de desarrollo
-•	[] Organizar y dividir el código en módulos (Modularización).
-•	[] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-•	[] Utilizar linter para seguir buenas prácticas (ESLINT).
+### Git y GitHub
+- [ ] Ejecutar comandos de git (add | commit | pull | status | push).
+- [ ] Utilizar los repositorios de GitHub (clone | fork | gh-pages).
+- [ ] Colaborar en Github (pull requests).
 
-5. Consideraciones generales
+### Buenas prácticas de desarrollo
+- [ ] Organizar y dividir el código en módulos (Modularización).
+- [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
+- [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
+
+## 5. Consideraciones generales
 
 •	Este proyecto se realizó en dupla
 •	El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub Pages.
 •	Tiempo para completarlo: Toma como referencia 4 semanas.
 
-6. Pruebas Unitarias
+## 6. Pruebas Unitarias
 
 El boilerplate de este proyecto no incluye Pruebas Unitarias (tests), así es que tendrás que escribirlas tú para las funciones que tenga tu código.
 Tus pruebas unitarias deben dar una cobertura del 70% de statements (sentencias), functions (funciones), lines (líneas), y branches (ramas) del archivo src/data.js que contenga tus funciones y está detallado en la sección de Consideraciones técnicas.
 
-7. Checklist
+## 7. Checklist
 
-• [] Usa VanillaJS.
-•	[] No hace uso de this.
-•	[] Pasa linter (npm run pretest)
-•	[] Pasa tests (npm test)
-•	[] Pruebas unitarias cubren un mínimo del 70% de statements, functions y lines y branches.
-•	[] Incluye Definición del producto clara e informativa en README.md.
-•	[] Incluye historias de usuario en README.md.
-•	[] Incluye sketch de la solución (prototipo de baja fidelidad) en README.md.
-•	[] Incluye Diseño de la Interfaz de Usuario (prototipo de alta fidelidad) en README.md.
-•	[] Incluye link a Zeplin en README.md.
-•	[] Incluye el listado de problemas que detectaste a través de tests de usabilidad en el README.md.
-•	[] UI: Muestra lista y/o tabla con datos y/o indicadores.
-•	[] UI: Permite ordenar data por uno o más campos (asc y desc).
-•	[] UI: Permite filtrar data en base a una condición.
-•	[] UI: Es responsive.
-________________________________________
+- [ ] Usa VanillaJS.
+- [ ] No hace uso de this.
+- [ ] Pasa linter (npm run pretest)
+- [ ] Pasa tests (npm test)
+- [ ] Pruebas unitarias cubren un mínimo del 70% de statements, functions y lines y branches.
+- [ ] Incluye Definición del producto clara e informativa en README.md.
+- [ ] Incluye historias de usuario en README.md.
+- [ ] Incluye sketch de la solución (prototipo de baja fidelidad) en README.md.
+- [ ] Incluye Diseño de la Interfaz de Usuario (prototipo de alta fidelidad) en README.md.
+- [ ] Incluye link a Zeplin en README.md.
+- [ ] Incluye el listado de problemas que detectaste a través de tests de usabilidad en el README.md.
+- [ ] UI: Muestra lista y/o tabla con datos y/o indicadores.
+- [ ] UI: Permite ordenar data por uno o más campos (asc y desc).
+- [ ] UI: Permite filtrar data en base a una condición.
+- [ ] UI: Es responsive.
+
+***
