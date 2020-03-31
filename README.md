@@ -87,6 +87,7 @@ Nota: Tanto quick move como special attack tienen información de cada movimient
 #### 3.5 Historiad de Usuario y Criterios de Aceptación
 #### 3.6 Prototipo en Baja Fidelidad
 #### 3.7 Testeo de Usabilidad y Feeback 
+![Testing Usabilidad](https://user-images.githubusercontent.com/60928765/78049235-6bafb580-7340-11ea-904f-3f9bde1f40bb.png)
 #### 3.8 Prototipo en Baja Fidelidad Pivoteado
 #### 3.9 Prototipo Validado y en Alta Fidelidad
 #### 3.10 Arquitectura de la información 
