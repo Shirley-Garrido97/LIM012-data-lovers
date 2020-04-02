@@ -1,7 +1,7 @@
 ![laptopL](https://user-images.githubusercontent.com/60928765/78252267-3332e780-74b8-11ea-88e0-05d6451042b0.png)
 # Data Lovers – Pokémon Go ![faviconPoke](https://user-images.githubusercontent.com/60928765/78252266-329a5100-74b8-11ea-83af-3cb96c9d2b55.png)
 
-## Índice 🎯
+##🎯 Índice 
 * [1. Resumen del proyecto](#1-Resumen-del-proyecto)
 * [2. Descripción del proyecto](#2-Descripción-del-proyecto)
 * [2.1 Proceso Creativo de Diseño](#2.1-Proceso-Creativo-de-Diseño)
