@@ -141,11 +141,11 @@ Además, en incursiones o peleas de gimnasios, `un entrenador necesita armar un 
 - [✔️] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
 - [✔️] Utilizar linter para seguir buenas prácticas (ESLINT).
 
-## 5. Consideraciones generales 🚨
+## 5. Consideraciones Generales 🚨
 
-📍 **Este proyecto se realizó en dupla**
-📍 **El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub Pages.**
-📍 **Tiempo para completarlo: Toma como referencia 4 semanas.**
+- 📍 **Este proyecto se realizó en dupla**
+- 📍 **El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub Pages.**
+- 📍 **Tiempo para completarlo: Toma como referencia 4 semanas.**
 
 ![Identicket Sandra Zapata](https://user-images.githubusercontent.com/60928765/78052249-766c4980-7344-11ea-91de-dd1d3b270eee.png)![Identicket Shirley Garrido](https://user-images.githubusercontent.com/60928765/78052251-7704e000-7344-11ea-9f9d-47b2f02ea2ad.png)
 
