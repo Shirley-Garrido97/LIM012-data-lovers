@@ -4,9 +4,9 @@
 
 ## 🎯 Índice 
 
-[1.	Resumen del proyecto](#1-resumen-del-proyecto)
-[2.	Descripción del proyecto](#2-descripción-del-proyecto)
-[2.1. Proceso Creativo de Diseño](#2.1-proceso-creativo-de-diseño)
+- [1.	Resumen del proyecto](#1-resumen-del-proyecto)
+- [2.	Descripción del proyecto](#2-descripción-del-proyecto)
+      - [2.1. Proceso Creativo de Diseño](#2.1-proceso-creativo-de-diseño)
       - 2.2. Vista Final Desktop
       - 2.3. Vista Final Mobile
       - 2.4. Vista Final Tablet
