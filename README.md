@@ -23,6 +23,14 @@
 - 5.	Consideraciones generales
 - 6.	Checklist
 
+<ol>
+<li>Pájaro</li>
+  <li>Pájaro1</li>
+  <li>Pájaro2</li>
+<li>Zorro</li>
+<li>Pez</li>
+</ol>
+
 ***
 
 ## 1. Resumen del proyecto 📝 
