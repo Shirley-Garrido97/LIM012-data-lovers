@@ -41,7 +41,7 @@ Esta página web es la nueva propuesta de actualización, para la página origin
 
 ## 3. Investigación UX 🔍
 
-### 3.1 Investigación con Jugadores/ Jugadoras de Pokémon Go
+### 3.1 Investigación con Jugadorxs de Pokémon Go
 
 🎮 **App**
 
