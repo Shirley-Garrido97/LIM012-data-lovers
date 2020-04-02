@@ -45,11 +45,11 @@ Esta página web es la nueva propuesta de actualización, para la página origin
 
 🎮 App
 
-Pokémon Go, consiste en buscar y capturar personajes de la saga Pokémon escondidos en ubicaciones del mundo real y luchar con ellos, lo que implica desplazarse físicamente por las calles de la ciudad para progresar. La aplicación comporta un elemento de interacción social, ya que promueve reuniones físicas de los usuarios en distintas ubicaciones de sus poblaciones.
+Pokémon Go, consiste en buscar y capturar personajes de la saga Pokémon escondidos en ubicaciones del mundo real y luchar con ellos, lo que implica que los jugadores se desplazen físicamente por las calles de la ciudad para progresar, promoviendo reuniones físicas entre los usuarios en distintas ubicaciones según su locación.
 
 📢 Hallazgos
 
-Los entrenadores de Pokémon Go tienen como objetivo coleccionar diferentes tipos de Pokémon para completar su Pokédex. Además, usan sus Pokémon para enfrentarse a otros entrenadores u otros Pokémon mientras realizan incursiones y batallan en gimnasios.
+Los entrenadores de Pokémon Go tienen como _objetivo_ `coleccionar diferentes tipos de Pokémon para completar su Pokédex`. Además, `usan sus Pokémon para enfrentarse` a otros entrenadores u otros Pokémon mientras realizan incursiones y batallan en gimnasios.
 
 📌 Atrapar y coleccionar los Pokémon
 
