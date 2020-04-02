@@ -31,6 +31,8 @@ Logrando que puedan visualizar, la información deseada, de manera precisa y cla
 Esta página web es la nueva propuesta de actualización, para la página original de Pokémon Go, en la cual añade información relevante para los usuarios nuevos y antiguos del juego para móvil, con la finalidad de mejorar la experiencia que estos tienen, ya que podrán comprar diversas cualidades de los pokémones, permitiendo mejorar sus estrategias, así como una inserción rápida en el juego para aquellos que recién comienzan.
 
 #### 2.1 Proceso Creativo de Diseño 👩🏻‍🎨🎨
+
+* Estilo
 * Teoria de color
  
 #### 2.2 Vista Final Desktop 💻
@@ -138,19 +140,19 @@ Nota: Tanto quick move como special attack tienen información de cada movimient
 - [✔️] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
 - [✔️] Utilizar linter para seguir buenas prácticas (ESLINT).
 
-## 5. Consideraciones generales
+## 5. Consideraciones generales 🚨
 
 - Este proyecto se realizó en dupla
 ![Identicket Sandra Zapata](https://user-images.githubusercontent.com/60928765/78052249-766c4980-7344-11ea-91de-dd1d3b270eee.png)![Identicket Shirley Garrido](https://user-images.githubusercontent.com/60928765/78052251-7704e000-7344-11ea-9f9d-47b2f02ea2ad.png)
 -	El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub Pages.
 -	Tiempo para completarlo: Toma como referencia 4 semanas.
 
-## 6. Pruebas Unitarias
+## 6. Pruebas Unitarias 📝💯
 
 El boilerplate de este proyecto no incluye Pruebas Unitarias (tests), así es que tendrás que escribirlas tú para las funciones que tenga tu código.
 Tus pruebas unitarias deben dar una cobertura del 70% de statements (sentencias), functions (funciones), lines (líneas), y branches (ramas) del archivo src/data.js que contenga tus funciones y está detallado en la sección de Consideraciones técnicas.
 
-## 7. Checklist
+## 7. Checklist ✅
 
 - [ ] Usa VanillaJS.
 - [ ] No hace uso de this.
