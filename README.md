@@ -1,5 +1,6 @@
 ![laptopL](https://user-images.githubusercontent.com/60928765/78252267-3332e780-74b8-11ea-88e0-05d6451042b0.png)
-# Data Lovers – Pokémon Go ![faviconPoke](https://user-images.githubusercontent.com/60928765/78252266-329a5100-74b8-11ea-83af-3cb96c9d2b55.png)
+
+# Data Lovers – Pokémon Go 
 
 ## 🎯 Índice 
 * [1. Resumen del proyecto](#1-Resumen-del-proyecto)
@@ -29,7 +30,7 @@ Logrando que puedan visualizar, la información deseada, de manera precisa y cla
 
 Esta página web es la nueva propuesta de actualización, para la página original de Pokémon Go, en la cual añade información relevante para los usuarios nuevos y antiguos del juego para móvil, con la finalidad de mejorar la experiencia que estos tienen, ya que podrán comprar diversas cualidades de los pokémones, permitiendo mejorar sus estrategias, así como una inserción rápida en el juego para aquellos que recién comienzan.
 
-#### 2.1 Proceso Creativo de Diseño 👩🏻‍🎨
+#### 2.1 Proceso Creativo de Diseño 👩🏻‍🎨🎨
 Teoria de color
  
 #### 2.2 Vista Final Desktop 💻
@@ -40,19 +41,19 @@ Teoria de color
 
 #### 3.1 Investigación con Jugadores/ Jugadoras de Pokémon Go
 
-* 📌 App
+* 🎮 App
 
 Pokémon Go, consiste en buscar y capturar personajes de la saga Pokémon escondidos en ubicaciones del mundo real y luchar con ellos, lo que implica desplazarse físicamente por las calles de la ciudad para progresar. La aplicación comporta un elemento de interacción social, ya que promueve reuniones físicas de los usuarios en distintas ubicaciones de sus poblaciones.
 
-* 📌 Hallazgos
+* 📢 Hallazgos
 
 Los entrenadores de Pokémon Go tienen como objetivo coleccionar diferentes tipos de Pokémon para completar su Pokédex. Además, usan sus Pokémon para enfrentarse a otros entrenadores u otros Pokémon mientras realizan incursiones y batallan en gimnasios.
 
-* 📌 1.- Atrapar y coleccionar los Pokémon
+* 📌 Atrapar y coleccionar los Pokémon
 
 Los Pokémon aparecen en estado salvaje (mientras caminan por la calle) donde pueden ser capturados por los entrenadores. Hay Pokémon que aparecen con más frecuencia que otros. Por ejemplo, es muy difícil encontrar alguna evolución de un Pokémon. Algunos Pokémon pueden evolucionar a otra forma (ej. Pikachu a Raichu), pero necesitan una cantidad determinada de caramelos para poder evolucionar, los cuales se obtienen cada vez que captura a un Pokémon de su misma especie. Por ejemplo, cada vez que se captura a un Pikachu el entrenador obtiene 3 caramelos tipo Pikachu. Al final necesita 25 para poder evolucionarlo a Raichu. La cantidad de caramelos necesaria para evolucionar un Pokémon varía de una especie a otra.
 
-* 📌 2.- Datos que te ayudarán a atrapar y coleccionar pokémones
+* 📌 Datos que te ayudarán a atrapar y coleccionar pokémones
 
 -	Los Pokémon tienen características únicas que determinan las decisiones que toma el usuario (tipo, tamaño, info, etc).
 -	Encounter: % Base de Huida y % Base de Captura.
@@ -61,12 +62,12 @@ Los Pokémon aparecen en estado salvaje (mientras caminan por la calle) donde pu
 -	Buddy-distance-km: Distancia en km que debe caminar el usuario con un pokémon con buddy para obtener 1 caramelo de dicho pokémon.
 -	Evolution: Tipo de caramelo, siguiente evolución y anterior evolución, si necesita algún ítem para evolucionar.
 
-* 📌 3.- Pelear para ganar gimnasios, incursiones y a otros entrenadores
+* 📌 Pelear para ganar gimnasios, incursiones y a otros entrenadores
 
 Los Pokémon y sus ataques son de distintos tipos. Por ejemplo, Pikachu es de tipo eléctrico y tiene ataques eléctricos y normales. Tener presente esta característica es importante cuando un entrenador elige al Pokémon más adecuado para su batalla. Por ejemplo, hay Pokémon que son débiles ante ataques de fuego y otros que resisten más este tipo de ataques. Por eso un entrenador necesita saber cuáles son los mejores ataques (por tipo) por cada Pokémon.
 Además, en incursiones o peleas de gimnasios, un entrenador necesita armar un equipo equilibrado de Pokémon con diferentes tipos para hacer el mayor daño posible y ayudar a su equipo.
 
-* 📌 4.- Datos que te ayudarán para pelear
+* 📌 Datos que te ayudarán para pelear
 
 -	Stats: Base de Ataque, Defensa y Salud + máx. CP (máx. puntos de combate) y máx. HP (máx. puntos de salud).
 -	Resistant: A qué tipos de pokémon es resistente.
@@ -74,7 +75,7 @@ Además, en incursiones o peleas de gimnasios, un entrenador necesita armar un e
 -	Quick-move: Movimientos rápidos.
 -	Special-attack: Ataques especiales
 
-* 📌 5.- Datos que puedo obtener de acá
+* 📌 Datos que puedo obtener de acá
 
 -	Qué pokémon tiene mayor punto de combate y mayor punto de salud.
 -	Algunas veces el usuario tiene que elegir a los que tienen menos cantidad de debilidades y/o resistencia y saber de qué tipo son. Por ello, es importante para un maestro Pokémon poder ordenarlos por estas 3 características.
@@ -98,50 +99,49 @@ Nota: Tanto quick move como special attack tienen información de cada movimient
 ## 4. Objetivos de aprendizaje 
 
 ### UX
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener feedback e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
-- [ ] Planear y ejecutar tests de usabilidad.
+- [✔️] Diseñar la aplicación pensando y entendiendo al usuario.
+- [✔️] Crear prototipos para obtener feedback e iterar.
+- [✔️] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [✔️] Planear y ejecutar tests de usabilidad.
 
 ### HTML y CSS
-- [ ] Entender y reconocer por qué es importante el HTML semántico.
-- [ ] Identificar y entender tipos de selectores en CSS.
-- [ ] Entender cómo funciona flexbox en CSS.
-- [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
+- [✔️] Entender y reconocer por qué es importante el HTML semántico.
+- [✔️] Identificar y entender tipos de selectores en CSS.
+- [✔️] Entender cómo funciona flexbox en CSS.
+- [✔️] Construir tu aplicación respetando el diseño planeado (maquetación).
 
 ### DOM
-- [ ] Entender y reconocer los selectores del DOM (querySelector | querySelectorAll).
-- [ ] Manejar eventos del DOM. (addEventListener)
-- [ ] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value).
+- [✔️] Entender y reconocer los selectores del DOM (querySelector | querySelectorAll).
+- [✔️] Manejar eventos del DOM. (addEventListener)
+- [✔️] Manipular dinámicamente el DOM. (createElement, appendchild, innerHTML, value).
 
 ### Javascript
-- [ ] Manipular arrays (filter | map | sort | reduce).
-- [ ] Manipular objects (key | value).
-- [ ] Entender el uso de condicionales (if-else | switch).
-- [ ] Entender el uso de bucles (for | forEach).
-- [ ] Entender la diferencia entre expression y statements.
-- [ ] Utilizar funciones (parámetros | argumentos | valor de retorno).
-- [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
-- [ ] Utilizar ES Modules (import | export).
+- [✔️] Manipular arrays (filter | map | sort | reduce).
+- [✔️] Manipular objects (key | value).
+- [✔️] Entender el uso de condicionales (if-else | switch).
+- [✔️] Entender el uso de bucles (for | forEach).
+- [〰️] Entender la diferencia entre expression y statements.
+- [✔️] Utilizar funciones (parámetros | argumentos | valor de retorno).
+- [✔️] Entender la diferencia entre tipos de datos atómicos y estructurados.
+- [✔️] Utilizar ES Modules (import | export).
 
 ### Pruebas Unitarias (testing)
-- [ ] Testear funciones (funciones puras).
+- [✔️] Testear funciones (funciones puras).
 
 ### Git y GitHub
-- [ ] Ejecutar comandos de git (add | commit | pull | status | push).
-- [ ] Utilizar los repositorios de GitHub (clone | fork | gh-pages).
-- [ ] Colaborar en Github (pull requests).
+- [✔️] Ejecutar comandos de git (add | commit | pull | status | push).
+- [✔️] Utilizar los repositorios de GitHub (clone | fork | gh-pages).
+- [✔️] Colaborar en Github (pull requests).
 
 ### Buenas prácticas de desarrollo
-- [ ] Organizar y dividir el código en módulos (Modularización).
-- [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-- [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
+- [✔️] Organizar y dividir el código en módulos (Modularización).
+- [✔️] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
+- [✔️] Utilizar linter para seguir buenas prácticas (ESLINT).
 
 ## 5. Consideraciones generales
 
 - Este proyecto se realizó en dupla
 ![Identicket Sandra Zapata](https://user-images.githubusercontent.com/60928765/78052249-766c4980-7344-11ea-91de-dd1d3b270eee.png)![Identicket Shirley Garrido](https://user-images.githubusercontent.com/60928765/78052251-7704e000-7344-11ea-9f9d-47b2f02ea2ad.png)
-
 -	El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub Pages.
 -	Tiempo para completarlo: Toma como referencia 4 semanas.
 
