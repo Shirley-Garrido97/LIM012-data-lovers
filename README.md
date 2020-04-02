@@ -1,6 +1,7 @@
-# Data Lovers – Pokémon Go
+![laptopL](https://user-images.githubusercontent.com/60928765/78252267-3332e780-74b8-11ea-88e0-05d6451042b0.png)
+# Data Lovers – Pokémon Go ![faviconPoke](https://user-images.githubusercontent.com/60928765/78252266-329a5100-74b8-11ea-83af-3cb96c9d2b55.png)
 
-## Índice
+## Índice 🎯
 * [1. Resumen del proyecto](#1-Resumen-del-proyecto)
 * [2. Descripción del proyecto](#2-Descripción-del-proyecto)
 * [2.1 Proceso Creativo de Diseño](#2.1-Proceso-Creativo-de-Diseño)
@@ -29,6 +30,8 @@ Logrando que puedan visualizar, la información deseada, de manera precisa y cla
 Esta página web es la nueva propuesta de actualización, para la página original de Pokémon Go, en la cual añade información relevante para los usuarios nuevos y antiguos del juego para móvil, con la finalidad de mejorar la experiencia que estos tienen, ya que podrán comprar diversas cualidades de los pokémones, permitiendo mejorar sus estrategias, así como una inserción rápida en el juego para aquellos que recién comienzan.
 
 #### 2.1 Proceso Creativo de Diseño
+Teoria de color
+ 
 #### 2.2 Vista Final Desktop
 #### 2.3 Vista Final Mobile
 #### 2.4 Vista Final Tablet
