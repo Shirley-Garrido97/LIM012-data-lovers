@@ -147,7 +147,7 @@ Además, en incursiones o peleas de gimnasios, `un entrenador necesita armar un 
 - 📍 **El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub Pages.**
 - 📍 **Tiempo para completarlo: Toma como referencia 4 semanas.**
 
-![Identicket Sandra Zapata](https://user-images.githubusercontent.com/60928765/78052249-766c4980-7344-11ea-91de-dd1d3b270eee.png)![Identicket Shirley Garrido](https://user-images.githubusercontent.com/60928765/78052251-7704e000-7344-11ea-9f9d-47b2f02ea2ad.png)
+![Banner Equipo de Trabajo](https://user-images.githubusercontent.com/60928765/78282220-840b0600-74e1-11ea-993a-7e186144f2d5.png)
 
 ## 6. Pruebas Unitarias 📝💯
 
