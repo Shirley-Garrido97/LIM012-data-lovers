@@ -3,13 +3,13 @@
 # Data Lovers – Pokémon Go 
 
 ## 🎯 Índice 
-1.	Resumen del proyecto
-2.	Descripción del proyecto
+**1.	Resumen del proyecto**
+**2.	Descripción del proyecto**
     - 2.1. Proceso Creativo de Diseño
     - 2.2. Vista Final Desktop
     - 2.3. Vista Final Mobile
     - 2.4.	Vista Final Tablet
-3.	Investigación UX
+**3.	Investigación UX**
     - 3.1.	Investigación con Jugadorxs de Pokémon Go
     - 3.2.	Problemática y Necesidades de los Usuarios
     - 3.3.	Público Objetivo y Propuesta de Valor
@@ -19,9 +19,9 @@
     - 3.7.	Prototipo en Baja Fidelidad Pivoteado
     - 3.8.	Prototipo Validado y en Alta Fidelidad
     - 3.9.	Arquitectura de la información
-4.	Objetivos de aprendizaje
-5.	Consideraciones generales
-6.	Checklist
+**4.	Objetivos de aprendizaje**
+**5.	Consideraciones generales**
+**6.	Checklist**
 
 ***
 
