@@ -2,13 +2,13 @@
 
 ## Índice
 * [1. Resumen del proyecto](#1-Resumen-del-proyecto)
-* [2. Descripción del proyecto](#2-Descripción del proyecto)
-* [2.1 Proceso Creativo de Diseño](#2.1-Proceso Creativo de Diseño)
-* [2.2 Vista Final Desktop](#2.2-Vista Final Desktop)
-* [2.3 Vista Final Mobile](#2.3-Vista Final Mobile)
-* [2.4 Vista Final Tablet](#2.4-Vista Final Tablet)
-* [3. Investigación UX ](#3-Investigación UX)
-* [3.1 Investigación con Jugadores/ Jugadoras de Pokémon Go ](#3.1-Investigación con Jugadores/ Jugadoras de Pokémon Go)
+* [2. Descripción del proyecto](#2-Descripción-del-proyecto)
+* [2.1 Proceso Creativo de Diseño](#2.1-Proceso-Creativo-de-Diseño)
+* [2.2 Vista Final Desktop](#2.2-Vista-Final-Desktop)
+* [2.3 Vista Final Mobile](#2.3-Vista-Final-Mobile)
+* [2.4 Vista Final Tablet](#2.4-Vista-Final-Tablet)
+* [3. Investigación UX ](#3-Investigación-UX)
+* [3.1 Investigación con Jugadores/ Jugadoras de Pokémon Go ](#3.1-Investigación-con-Jugadores-de-Pokémon-Go)
 •	3. Objetivos de aprendizaje
 •	4. Consideraciones generales
 •	5. Criterios de aceptación mínimos del proyecto
