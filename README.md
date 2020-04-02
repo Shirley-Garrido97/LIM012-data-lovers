@@ -145,7 +145,7 @@ Además, en incursiones o peleas de gimnasios, `un entrenador necesita armar un 
 
 - 📍 Este proyecto se realizó en dupla
 - 📍 La interfaz del proyecto esta desplegada usando GitHub Pages.
-- 📍 El tiempo del proyecto fue de ´4 semanas.´
+- 📍 El tiempo del proyecto fue de `4 semanas.`
 
 ![Banner Equipo de Trabajo](https://user-images.githubusercontent.com/60928765/78282537-10b5c400-74e2-11ea-975f-1c47272c25d7.png)
 
