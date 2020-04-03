@@ -98,7 +98,9 @@ Además, en incursiones o peleas de gimnasios, `un entrenador necesita armar un 
 ### 3.3 Público Objetivo & Propuesta de Valor 🏆🎯
 ### 3.4 Historiad de Usuario y Criterios de Aceptación 📢 📝
 📍 **HU 1 - Visualizar todos los pokémones.**
-**YO, COMO** usuario pokémon, **QUIERO** que al ingresar a mi pokédex como primera instancia pueda visualizar *todos* los pokémones **PARA** saber que pokémones contiene la pokédex
+::: warning
+👉 **YO, COMO** usuario pokémon, **QUIERO** que al ingresar a mi pokédex como primera instancia pueda visualizar *todos* los pokémones **PARA** saber que pokémones contiene la pokédex
+:::
 
 ### 3.5 Prototipo en Baja Fidelidad 📲✏️
 ### 3.6 Testeo de Usabilidad y Feeback 💬🗣️🔁
