@@ -182,8 +182,8 @@ de manera rápida.
 📝**HU 5 - Visualizar la ficha Técnica de cada Pokémon**
 
 ```sh
-🗣️ YO, COMO usuario pokemon , QUIERO visualizar información más detallada de cada pokémon(evoluciones, peso, 
-altura, elemento y ataques)  PARA poder tener una mejor estrategia de que pokemon utilizar para cada situación.
+🗣️ YO, COMO usuario pokemon , QUIERO visualizar información más detallada de cada pokémon(evoluciones, peso, altura,
+elemento y ataques)  PARA poder tener una mejor estrategia de que pokemon utilizar para cada situación.
 ```
 
 👉 **Criterios de Aceptación:**
