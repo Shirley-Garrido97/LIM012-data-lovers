@@ -4,7 +4,7 @@
 
 ## 🎯 Índice 
 
-* [1. **Resumen del proyecto**](#1-resumen-del-proyecto)
+* [1. **Resumen del proyecto**](#1-resumen-del-proyecto-📝)
 1. **Resumen del proyecto**(#1-resumen-del-proyecto)
 2. **Descripción del proyecto**(#2-descripción-del-producto)
      * 2.1 Proceso Creativo de Diseño
