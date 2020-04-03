@@ -12,17 +12,18 @@
      * [2.4 Vista Final Tablet](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#24-vista-final-tablet-)
 3. [**Investigación UX**](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#3-investigaci%C3%B3n-ux-)
    * [3.1 Investigación con Jugadorxs de Pokémon Go](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#31-investigaci%C3%B3n-con-jugadorxs-de-pok%C3%A9mon-go)
-   * [3.2 Problemática & Necesidades de los Usuarios](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#32-p%C3%BAblico-objetivo-)
-   * 3.3 Público Objetivo & Propuesta de Valor
-   * 3.4 Historiad de Usuario & Criterios de Aceptación
-   * 3.5 Prototipo en Baja Fidelidad
-   * 3.6 Testeo de Usabilidad y Feeback
-   * 3.7 Prototipo en Baja Fidelidad Pivoteado
-   * 3.8 Prototipo Validado & en Alta Fidelidad
-   * 3.9 Arquitectura de la información
-4. **Objetivos de aprendizaje**
-5. **Consideraciones generales**
-6. **Checklist**
+   * [3.2 Problemática & Necesidades de los Usuarios](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#32-problem%C3%A1tica-y-necesidades-de-los-usuarios-%EF%B8%8F)
+   * [3.3 Público Objetivo & Propuesta de Valor](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#33-p%C3%BAblico-objetivo--propuesta-de-valor-)
+   * [3.4 Historiad de Usuario & Criterios de Aceptación](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#34-historiad-de-usuario-y-criterios-de-aceptaci%C3%B3n--)
+   * [3.5 Prototipo en Baja Fidelidad](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#35-prototipo-en-baja-fidelidad-%EF%B8%8F)
+   * [3.6 Testeo de Usabilidad y Feeback](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#36-testeo-de-usabilidad-y-feeback-%EF%B8%8F)
+   * [3.7 Prototipo en Baja Fidelidad Pivoteado](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#37-prototipo-en-baja-fidelidad-pivoteado-)
+   * [3.8 Prototipo Validado & en Alta Fidelidad](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#38-prototipo-validado-y-en-alta-fidelidad-)
+   * [3.9 Arquitectura de la información](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#39-arquitectura-de-la-informaci%C3%B3n-%EF%B8%8F)
+4. [**Objetivos de aprendizaje**](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#4-objetivos-de-aprendizaje)
+5. [**Consideraciones generales**](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#5-consideraciones-generales-)
+6. [**Pruebas Unitarias**](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#6-pruebas-unitarias-)
+7. [**Checklist**](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#7-checklist-)
 
 ***
 
