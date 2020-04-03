@@ -42,7 +42,9 @@ Esta página web es la nueva propuesta de actualización, para la página origin
 * Teoria de color
  
 ### 2.2 Vista Final Desktop 💻
+
 ### 2.3 Vista Final Mobile 📲
+
 ### 2.4 Vista Final Tablet 📱
 
 ## 3. Investigación UX 🔍
@@ -186,7 +188,7 @@ de manera rápida.
 elemento y ataques)  PARA poder tener una mejor estrategia de que pokemon utilizar para cada situación.
 ```
 
-👉 **Criterios de Aceptación:**
+📍 **Criterios de Aceptación:**
 
 - [ ] El usuario puede ver la información detallada del pokemon al hacer *clic* en el área que ocupa este.
 - [ ] El usuario podrá  ver la información detallada en una caja emergente (*modal o popup*)
@@ -202,10 +204,15 @@ elemento y ataques)  PARA poder tener una mejor estrategia de que pokemon utiliz
 
 
 ### 3.5 Prototipo en Baja Fidelidad 📲✏️
+
 ### 3.6 Testeo de Usabilidad y Feeback 💬🗣️🔁
+
 ![Testing Usabilidad](https://user-images.githubusercontent.com/60928765/78049235-6bafb580-7340-11ea-904f-3f9bde1f40bb.png)
+
 ### 3.7 Prototipo en Baja Fidelidad Pivoteado 👾
+
 ### 3.8 Prototipo Validado y en Alta Fidelidad 👾
+
 ### 3.9 Arquitectura de la información 🗂️
 
 ## 4. Objetivos de aprendizaje 
