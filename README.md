@@ -207,7 +207,7 @@ elemento y ataques)  PARA poder tener una mejor estrategia de que pokemon utiliz
 
 ### 3.6 Testeo de Usabilidad y Feeback 💬🗣️🔁
 
-![Testing Usabilidad](https://user-images.githubusercontent.com/60928765/78049235-6bafb580-7340-11ea-904f-3f9bde1f40bb.png)
+![Testing](https://user-images.githubusercontent.com/60928765/78331309-61153c00-754b-11ea-84ba-2706c4de4a71.png)
 
 ### 3.7 Prototipo en Baja Fidelidad Pivoteado 👾
 
