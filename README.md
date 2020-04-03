@@ -98,25 +98,104 @@ Además, en incursiones o peleas de gimnasios, `un entrenador necesita armar un 
 ### 3.3 Público Objetivo & Propuesta de Valor 🏆🎯
 ### 3.4 Historiad de Usuario y Criterios de Aceptación 📢 📝
 
-📝**HU 1 - Visualizar todos los pokémones.**
+📝**HU 1 - Visualizar todos los Pokémones**
 
 ```sh
-🗣️ YO, COMO usuario pokémon, QUIERO que al ingresar a mi pokédex como primera instancia puedavisualizar todos los 
-pokémones, PARA saber que pokémones contiene la pokédex
+🗣️ YO, COMO usuario pokémon, QUIERO que al ingresar a mi pokédex como primera instancia puedavisualizar todos los pokémones, PARA saber que pokémones contiene la pokédex
 ```
 
-👉 **Criterios de Aceptación :**
+👉 **Criterios de Aceptación:**
 
-[] El usuario debe poder visualizar en la pantalla  *la imagen del pokemon, el nombre, el numero de pokemon que es , CP y HP,* de  los 251 pokémones de la BD.
-[] El usuario podrá ver a los 251 pokémones *ordenados por su ID por default* y en forma de grilla.
-[] La visualización de los pokémones debe poder hacerse fácilmente desde cualquier dispositivo.
+[✔️] El usuario debe poder visualizar en la pantalla  *la imagen del pokemon, el nombre, el numero de pokemon que es , CP y HP,* de  los 251 pokémones de la BD.
+[✔️] El usuario podrá ver a los 251 pokémones *ordenados por su ID por default* y en forma de grilla.
+[✔️] La visualización de los pokémones debe poder hacerse fácilmente desde cualquier dispositivo.
 
-👉 **Definición de Terminado**
+👉 **Definición de Terminado:**
 
-[] Revisión y entendimiento del diccionario de dato de la dataset [Ver](https://docs.google.com/document/d/1d6llwgWw5hjJDjBLGpJvzgbnbBOsBE7-swnTr5hnPm8/edit) 
-[] El codigo no tiene correcciones de ESLINT.
-[] La función creada para mostrar a los pokemones funciona correctamente.
-[] 
+[✔️] Revisión y entendimiento del diccionario de dato de la dataset [Ver](https://docs.google.com/document/d/1d6llwgWw5hjJDjBLGpJvzgbnbBOsBE7-swnTr5hnPm8/edit) 
+[✔️] El codigo no tiene correcciones de ESLINT.
+[✔️] La función creada para mostrar a los pokemones funciona correctamente.
+[✔️] La HU debe estar desplegada en GitPages para que el usuario pueda iteractuar y aprobarlo.
+
+📝**HU 2 - Visualización de pokémon por tipo**
+
+```sh
+🗣️ YO, COMO usuario pokémon , QUIERO que del total de los pokémon pueda filtrar a los pokémon por tipo de elemento(fuego, tierra, agua. etc), PARA saber que pokémon comparten ese tipo de elemento y/o característica.
+```
+
+👉 **Criterios de Aceptación:**
+
+[✔️] El usuario puede identificar una lista desplegable de nombre "Tipo".
+[✔️] El usuario puede visualizar en la lista desplegable todos los tipos de pokémon que hay en la data set.
+[✔️] La lista desplegable debe permitir seleccionar solo un tipo de pokémon.
+[✔️] Al seleccionar el tipo de pokémon el usuario puede visualizar aquellos pokémon que coinciden al menos con ese tipo.
+
+👉 **Definición de Terminado:**
+
+[✔️] Todos los criterios de aceptación son cumplidos.
+[✔️] El código tiene y pasa los test respectivos.
+[✔️] La HU debe estar desplegado en GitPages para que el usuario pueda iteractuar.
+[✔️] El código no tiene errores en  ESLINT.
+
+📝**HU 3 - Conteo de pokemon según  se visualicen con o sin filtros**
+
+```sh
+🗣️ YO, COMO usuario pokémon , QUIERO visualizar el total de pokemones que me muestra en pantalla con o sin filtros PARA evitar el conteo de los pokemon en caso la lista sea muy extensa.
+```
+
+👉 **Criterios de Aceptación:**
+
+[✔️] El usuario puede identificar que esta área es la sección de conteo de pokemones.
+[✔️] El usuario puede visualizar el numero de pokemones que ve en pantalla.
+
+👉 **Definición de Terminado:**
+
+[✔️] La HU debe estar desplegada en GitPages.
+[✔️] La HU cumple todos los criterios de aceptación.
+[✔️] El codigo no tiene correcciones en ESLINT.
+
+📝**HU 4 - Búsqueda personalizada**
+
+```sh
+🗣️ YO, COMO usuario pokémon , QUIERO poder buscar un pokemon en especifico PARA acceder a todas sus características de manera rápida.
+```
+
+👉 **Criterios de Aceptación:**
+
+[✔️] El usuario debe poder identificar el buscador.
+[✔️] El usuario debe poder buscar a los pokemones a través de su nombre.
+[✔️] El usuario podra vizualizar un mensaje en caso no encuentre ningun pokemon.
+[✔️] La visualización de los pokemones buscados debe poder hacerse fácilmente desde cualquier dispositivo.
+[✔️] El usuario podrá ver el card  del pokemon que tenga coincidencia con el inicio de su nombre.
+
+👉 **Definición de Terminado:**
+
+[✔️] Todos los criterios de aceptación son cumplidos.
+[✔️] El codigo tiene y pasa los test respectivos (como minimo el 70 %).
+[✔️] La HU debe estar desplegado en GitPages para que el usuario pueda interactuar.
+[✔️] El codigo no tiene errores en Eslint.
+
+📝**HU 5 - Visualizar la ficha Técnica de cada Pokémon**
+
+```sh
+🗣️ YO, COMO usuario pokemon , QUIERO visualizar información más detallada de cada pokémon(evoluciones, peso, altura, elemento y ataques)  PARA poder tener una mejor estrategia de que pokemon utilizar para cada situación.
+```
+
+👉 **Criterios de Aceptación:**
+
+[] El usuario puede ver la información detallada del pokemon al hacer *clic* en el área que ocupa este.
+[] El usuario podrá  ver la información detallada en una caja emergente (*modal o popup*)
+[] El usuario puede volver a visualizar todos los pokemones al cerrar la caja emergente.
+[] La visualización debe poder hacerse en cualquier dispositivo.
+
+👉 **Definición de Terminado:**
+
+[] Todos los criterios de aceptación son cumplidos.
+[] Todas las pruebas unitarias son correctas.
+[] La HU debe estar desplegado en GitHub.
+[] El evento para mostrar información detallada de cada pokemon debe funcionar correctamente.
+
+
 ### 3.5 Prototipo en Baja Fidelidad 📲✏️
 ### 3.6 Testeo de Usabilidad y Feeback 💬🗣️🔁
 ![Testing Usabilidad](https://user-images.githubusercontent.com/60928765/78049235-6bafb580-7340-11ea-904f-3f9bde1f40bb.png)
