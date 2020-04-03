@@ -107,7 +107,7 @@ pokémones, PARA saber que pokémones contiene la pokédex.
 
 👉 **Criterios de Aceptación:**
 
-- [✔️] El usuario debe poder visualizar en la pantalla  *la imagen del pokemon, el nombre, el numero de pokemon que es , CP y HP,* de  los 251 pokémones de la BD.
+- [✔️] El usuario debe poder visualizar en la pantalla *la imagen del pokemon, el nombre, el numero de pokemon que es , CP y HP,* de  los 251 pokémones de la BD.
 - [✔️] El usuario podrá ver a los 251 pokémones *ordenados por su ID por default* y en forma de grilla.
 - [✔️] La visualización de los pokémones debe poder hacerse fácilmente desde cualquier dispositivo.
 
@@ -188,17 +188,17 @@ elemento y ataques)  PARA poder tener una mejor estrategia de que pokemon utiliz
 
 👉 **Criterios de Aceptación:**
 
-- [] El usuario puede ver la información detallada del pokemon al hacer *clic* en el área que ocupa este.
-- [] El usuario podrá  ver la información detallada en una caja emergente (*modal o popup*)
-- [] El usuario puede volver a visualizar todos los pokemones al cerrar la caja emergente.
-- [] La visualización debe poder hacerse en cualquier dispositivo.
+- [ ] El usuario puede ver la información detallada del pokemon al hacer *clic* en el área que ocupa este.
+- [ ] El usuario podrá  ver la información detallada en una caja emergente (*modal o popup*)
+- [ ] El usuario puede volver a visualizar todos los pokemones al cerrar la caja emergente.
+- [ ] La visualización debe poder hacerse en cualquier dispositivo.
 
 👉 **Definición de Terminado:**
 
-- [] Todos los criterios de aceptación son cumplidos.
-- [] Todas las pruebas unitarias son correctas.
-- [] La HU debe estar desplegado en GitHub.
-- [] El evento para mostrar información detallada de cada pokemon debe funcionar correctamente.
+- [ ] Todos los criterios de aceptación son cumplidos.
+- [ ] Todas las pruebas unitarias son correctas.
+- [ ] La HU debe estar desplegado en GitHub.
+- [ ] El evento para mostrar información detallada de cada pokemon debe funcionar correctamente.
 
 
 ### 3.5 Prototipo en Baja Fidelidad 📲✏️
