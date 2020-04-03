@@ -104,17 +104,6 @@ Además, en incursiones o peleas de gimnasios, `un entrenador necesita armar un 
 🗣️ **YO, COMO** usuario pokémon, **QUIERO** que al ingresar a mi pokédex como primera instancia pueda 
 visualizar *todos* los pokémones **PARA** saber que pokémones contiene la pokédex
 ```
-:arrow_right_hook:
-
-??? note "Phasellus posuere in sem ut cursus"
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-    
-!!! note "Phasellus posuere in sem ut cursus"
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.   
 
 👉 **Criterios de Aceptación :**
 
