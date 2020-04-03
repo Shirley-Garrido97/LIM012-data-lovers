@@ -107,7 +107,7 @@ pokémones, PARA saber que pokémones contiene la pokédex.
 
 📍 **Criterios de Aceptación:**
 
-- [✔️] El usuario debe poder visualizar en la pantalla *la imagen del pokemon, el nombre, el numero de pokemon que es , CP y HP,* de  los 251 pokémones de la BD.
+- [✔️] El usuario debe poder visualizar en la pantalla la imagen del pokemon, el nombre, el numero de pokemon que es , CP y HP, de  los 251 pokémones de la BD.
 - [✔️] El usuario podrá ver a los 251 pokémones *ordenados por su ID por default* y en forma de grilla.
 - [✔️] La visualización de los pokémones debe poder hacerse fácilmente desde cualquier dispositivo.
 
