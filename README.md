@@ -181,7 +181,28 @@ de manera rápida.
 - [✔️] La HU debe estar desplegado en GitPages para que el usuario pueda interactuar.
 - [✔️] El codigo no tiene errores en Eslint.
 
-📝**HU 5 - Visualizar la ficha Técnica de cada Pokémon**
+📝**HU 5 - Visualización de pokémon por tipo**
+
+```sh
+🗣️ YO, COMO usuario pokémon , QUIERO que del total de los pokémon pueda filtrar a los pokémon por tipo de elemento
+(fuego, tierra, agua. etc), PARA saber que pokémon comparten ese tipo de elemento y/o característica.
+```
+
+📍 **Criterios de Aceptación:**
+
+- [✔️] El usuario puede identificar una lista desplegable de nombre "Tipo".
+- [✔️] El usuario puede visualizar en la lista desplegable todos los tipos de pokémon que hay en la data set.
+- [✔️] La lista desplegable debe permitir seleccionar solo un tipo de pokémon.
+- [✔️] Al seleccionar el tipo de pokémon el usuario puede visualizar aquellos pokémon que coinciden al menos con ese tipo.
+
+🏁 **Definición de Terminado:**
+
+- [✔️] Todos los criterios de aceptación son cumplidos.
+- [✔️] El código tiene y pasa los test respectivos.
+- [✔️] La HU debe estar desplegado en GitPages para que el usuario pueda iteractuar.
+- [✔️] El código no tiene errores en  ESLINT.
+
+📝**HU 6 - Visualizar la ficha Técnica de cada Pokémon**
 
 ```sh
 🗣️ YO, COMO usuario pokemon , QUIERO visualizar información más detallada de cada pokémon(evoluciones, peso, altura,
