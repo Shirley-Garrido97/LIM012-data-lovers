@@ -5,14 +5,14 @@
 ## 🎯 Índice 
 
 1. [**Resumen del proyecto**](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#1-resumen-del-proyecto-)
-2. **Descripción del proyecto**(#2-descripción-del-producto)
-     * 2.1 Proceso Creativo de Diseño
-     * 2.2 Vista Final Desktop
-     * 2.3 Vista Final Mobile
-     * 2.4 Vista Final Tablet
-3. **Investigación UX**
-   * 3.1 Investigación con Jugadorxs de Pokémon Go
-   * 3.2 Problemática & Necesidades de los Usuarios
+2. [**Descripción del proyecto**](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#2-descripci%C3%B3n-del-proyecto-)
+     * [2.1 Proceso Creativo de Diseño](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#21-proceso-creativo-de-dise%C3%B1o-)
+     * [2.2 Vista Final Desktop](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#22-vista-final-desktop-)
+     * [2.3 Vista Final Mobile](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#23-vista-final-mobile-)
+     * [2.4 Vista Final Tablet](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#24-vista-final-tablet-)
+3. [**Investigación UX**](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#3-investigaci%C3%B3n-ux-)
+   * [3.1 Investigación con Jugadorxs de Pokémon Go](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#31-investigaci%C3%B3n-con-jugadorxs-de-pok%C3%A9mon-go)
+   * [3.2 Problemática & Necesidades de los Usuarios](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#32-p%C3%BAblico-objetivo-)
    * 3.3 Público Objetivo & Propuesta de Valor
    * 3.4 Historiad de Usuario & Criterios de Aceptación
    * 3.5 Prototipo en Baja Fidelidad
@@ -93,16 +93,15 @@ Además, en incursiones o peleas de gimnasios, `un entrenador necesita armar un 
 
 **Nota:** Tanto quick move como special attack tienen información de cada movimiento: nombre, tipo, base de daño, energía, duración del movimiento(seg).
 
-### 3.2 Público Objetivo 🎯
-### 3.3 Problemática y Necesidades de los Usuarios 🗣️
-### 3.4 Propuesta de Valor 🏆
-### 3.5 Historiad de Usuario y Criterios de Aceptación 📢 📝
-### 3.6 Prototipo en Baja Fidelidad 📲✏️
-### 3.7 Testeo de Usabilidad y Feeback 💬🗣️🔁
+### 3.2 Problemática y Necesidades de los Usuarios 🗣️
+### 3.3 Público Objetivo & Propuesta de Valor 🏆🎯
+### 3.4 Historiad de Usuario y Criterios de Aceptación 📢 📝
+### 3.5 Prototipo en Baja Fidelidad 📲✏️
+### 3.6 Testeo de Usabilidad y Feeback 💬🗣️🔁
 ![Testing Usabilidad](https://user-images.githubusercontent.com/60928765/78049235-6bafb580-7340-11ea-904f-3f9bde1f40bb.png)
-### 3.8 Prototipo en Baja Fidelidad Pivoteado 👾
-### 3.9 Prototipo Validado y en Alta Fidelidad 👾
-### 3.10 Arquitectura de la información 🗂️
+### 3.7 Prototipo en Baja Fidelidad Pivoteado 👾
+### 3.8 Prototipo Validado y en Alta Fidelidad 👾
+### 3.9 Arquitectura de la información 🗂️
 
 ## 4. Objetivos de aprendizaje 
 
