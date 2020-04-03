@@ -4,8 +4,7 @@
 
 ## 🎯 Índice 
 
-* [1. **Resumen del proyecto**](#1-resumen-del-proyecto-📝)
-1. **Resumen del proyecto**(#1-resumen-del-proyecto)
+1. [**Resumen del proyecto**](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#1-resumen-del-proyecto-)
 2. **Descripción del proyecto**(#2-descripción-del-producto)
      * 2.1 Proceso Creativo de Diseño
      * 2.2 Vista Final Desktop
