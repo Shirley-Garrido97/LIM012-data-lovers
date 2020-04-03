@@ -100,8 +100,11 @@ Además, en incursiones o peleas de gimnasios, `un entrenador necesita armar un 
 
 📝**HU 1 - Visualizar todos los pokémones.**
 
-::: warning
+
 🗣️ **YO, COMO** usuario pokémon, **QUIERO** que al ingresar a mi pokédex como primera instancia pueda visualizar *todos* los pokémones **PARA** saber que pokémones contiene la pokédex
+
+:::success
+Yes :tada:
 :::
 
 👉 **Criterios de Aceptación :**
