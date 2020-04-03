@@ -97,11 +97,25 @@ Además, en incursiones o peleas de gimnasios, `un entrenador necesita armar un 
 ### 3.2 Problemática y Necesidades de los Usuarios 🗣️
 ### 3.3 Público Objetivo & Propuesta de Valor 🏆🎯
 ### 3.4 Historiad de Usuario y Criterios de Aceptación 📢 📝
-📍 **HU 1 - Visualizar todos los pokémones.**
+
+📝**HU 1 - Visualizar todos los pokémones.**
+
 ::: warning
-👉 **YO, COMO** usuario pokémon, **QUIERO** que al ingresar a mi pokédex como primera instancia pueda visualizar *todos* los pokémones **PARA** saber que pokémones contiene la pokédex
+*🗣️ **YO, COMO** usuario pokémon, **QUIERO** que al ingresar a mi pokédex como primera instancia pueda visualizar *todos* los pokémones **PARA** saber que pokémones contiene la pokédex*
 :::
 
+👉 **Criterios de Aceptación :**
+
+[] El usuario debe poder visualizar en la pantalla  *la imagen del pokemon, el nombre, el numero de pokemon que es , CP y HP,* de  los 251 pokémones de la BD.
+[] El usuario podrá ver a los 251 pokémones *ordenados por su ID por default* y en forma de grilla.
+[] La visualización de los pokémones debe poder hacerse fácilmente desde cualquier dispositivo.
+
+👉 **Definición de Terminado**
+
+[] Revisión y entendimiento del diccionario de dato de la dataset [Ver](https://docs.google.com/document/d/1d6llwgWw5hjJDjBLGpJvzgbnbBOsBE7-swnTr5hnPm8/edit) 
+[] El codigo no tiene correcciones de ESLINT.
+[] La función creada para mostrar a los pokemones funciona correctamente.
+[] 
 ### 3.5 Prototipo en Baja Fidelidad 📲✏️
 ### 3.6 Testeo de Usabilidad y Feeback 💬🗣️🔁
 ![Testing Usabilidad](https://user-images.githubusercontent.com/60928765/78049235-6bafb580-7340-11ea-904f-3f9bde1f40bb.png)
