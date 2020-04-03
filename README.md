@@ -105,13 +105,13 @@ Además, en incursiones o peleas de gimnasios, `un entrenador necesita armar un 
 pokémones, PARA saber que pokémones contiene la pokédex.
 ```
 
-👉 **Criterios de Aceptación:**
+📍 **Criterios de Aceptación:**
 
 - [✔️] El usuario debe poder visualizar en la pantalla *la imagen del pokemon, el nombre, el numero de pokemon que es , CP y HP,* de  los 251 pokémones de la BD.
 - [✔️] El usuario podrá ver a los 251 pokémones *ordenados por su ID por default* y en forma de grilla.
 - [✔️] La visualización de los pokémones debe poder hacerse fácilmente desde cualquier dispositivo.
 
-👉 **Definición de Terminado:**
+🏁 **Definición de Terminado:**
 
 - [✔️] Revisión y entendimiento del diccionario de dato de la dataset [Ver](https://docs.google.com/document/d/1d6llwgWw5hjJDjBLGpJvzgbnbBOsBE7-swnTr5hnPm8/edit) 
 - [✔️] El codigo no tiene correcciones de ESLINT.
@@ -125,14 +125,14 @@ pokémones, PARA saber que pokémones contiene la pokédex.
 (fuego, tierra, agua. etc), PARA saber que pokémon comparten ese tipo de elemento y/o característica.
 ```
 
-👉 **Criterios de Aceptación:**
+📍 **Criterios de Aceptación:**
 
 - [✔️] El usuario puede identificar una lista desplegable de nombre "Tipo".
 - [✔️] El usuario puede visualizar en la lista desplegable todos los tipos de pokémon que hay en la data set.
 - [✔️] La lista desplegable debe permitir seleccionar solo un tipo de pokémon.
 - [✔️] Al seleccionar el tipo de pokémon el usuario puede visualizar aquellos pokémon que coinciden al menos con ese tipo.
 
-👉 **Definición de Terminado:**
+🏁 **Definición de Terminado:**
 
 - [✔️] Todos los criterios de aceptación son cumplidos.
 - [✔️] El código tiene y pasa los test respectivos.
@@ -146,12 +146,12 @@ pokémones, PARA saber que pokémones contiene la pokédex.
 PARA evitar el conteo de los pokemon en caso la lista sea muy extensa.
 ```
 
-👉 **Criterios de Aceptación:**
+📍 **Criterios de Aceptación:**
 
 - [✔️] El usuario puede identificar que esta área es la sección de conteo de pokemones.
 - [✔️] El usuario puede visualizar el numero de pokemones que ve en pantalla.
 
-👉 **Definición de Terminado:**
+🏁 **Definición de Terminado:**
 
 - [✔️] La HU debe estar desplegada en GitPages.
 - [✔️] La HU cumple todos los criterios de aceptación.
@@ -164,7 +164,7 @@ PARA evitar el conteo de los pokemon en caso la lista sea muy extensa.
 de manera rápida.
 ```
 
-👉 **Criterios de Aceptación:**
+📍 **Criterios de Aceptación:**
 
 - [✔️] El usuario debe poder identificar el buscador.
 - [✔️] El usuario debe poder buscar a los pokemones a través de su nombre.
@@ -172,7 +172,7 @@ de manera rápida.
 - [✔️] La visualización de los pokemones buscados debe poder hacerse fácilmente desde cualquier dispositivo.
 - [✔️] El usuario podrá ver el card  del pokemon que tenga coincidencia con el inicio de su nombre.
 
-👉 **Definición de Terminado:**
+🏁 **Definición de Terminado:**
 
 - [✔️] Todos los criterios de aceptación son cumplidos.
 - [✔️] El codigo tiene y pasa los test respectivos (como minimo el 70 %).
@@ -193,7 +193,7 @@ elemento y ataques)  PARA poder tener una mejor estrategia de que pokemon utiliz
 - [ ] El usuario puede volver a visualizar todos los pokemones al cerrar la caja emergente.
 - [ ] La visualización debe poder hacerse en cualquier dispositivo.
 
-👉 **Definición de Terminado:**
+🏁 **Definición de Terminado:**
 
 - [ ] Todos los criterios de aceptación son cumplidos.
 - [ ] Todas las pruebas unitarias son correctas.
