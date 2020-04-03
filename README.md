@@ -14,7 +14,7 @@
    * [3.1 Investigación con Jugadorxs de Pokémon Go](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#31-investigaci%C3%B3n-con-jugadorxs-de-pok%C3%A9mon-go)
    * [3.2 Problemática & Necesidades de los Usuarios](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#32-problem%C3%A1tica-y-necesidades-de-los-usuarios-%EF%B8%8F)
    * [3.3 Público Objetivo & Propuesta de Valor](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#33-p%C3%BAblico-objetivo--propuesta-de-valor-)
-   * [3.4 Historiad de Usuario & Criterios de Aceptación](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#34-historiad-de-usuario-y-criterios-de-aceptaci%C3%B3n--)
+   * [3.4 Historias de Usuario & Criterios de Aceptación](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#34-historiad-de-usuario-y-criterios-de-aceptaci%C3%B3n--)
    * [3.5 Prototipo en Baja Fidelidad](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#35-prototipo-en-baja-fidelidad-%EF%B8%8F)
    * [3.6 Testeo de Usabilidad y Feeback](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#36-testeo-de-usabilidad-y-feeback-%EF%B8%8F)
    * [3.7 Prototipo en Baja Fidelidad Pivoteado](https://github.com/Shirley-Garrido97/LIM012-data-lovers/tree/shirley#37-prototipo-en-baja-fidelidad-pivoteado-)
@@ -97,6 +97,9 @@ Además, en incursiones o peleas de gimnasios, `un entrenador necesita armar un 
 ### 3.2 Problemática y Necesidades de los Usuarios 🗣️
 ### 3.3 Público Objetivo & Propuesta de Valor 🏆🎯
 ### 3.4 Historiad de Usuario y Criterios de Aceptación 📢 📝
+📍 **HU 1 - Visualizar todos los pokémones.**
+**YO, COMO** usuario pokémon, **QUIERO** que al ingresar a mi pokédex como primera instancia pueda visualizar *todos* los pokémones **PARA** saber que pokémones contiene la pokédex
+
 ### 3.5 Prototipo en Baja Fidelidad 📲✏️
 ### 3.6 Testeo de Usabilidad y Feeback 💬🗣️🔁
 ![Testing Usabilidad](https://user-images.githubusercontent.com/60928765/78049235-6bafb580-7340-11ea-904f-3f9bde1f40bb.png)
