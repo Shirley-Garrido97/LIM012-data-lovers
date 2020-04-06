@@ -1,33 +1,34 @@
-// estas funciones son de ejemplo
-/* export const example = () => 'example';
-export const searchPokemon = (listPokemon, input) => {
-  const pokemon = listPokemon.filter(poke => poke.toLowerCase().startsWith(input));
-  return pokemon;
-}; */
-
 export const filterByType = (arrayObj, elementType) => {
-  const arrayTipeFilter = [];
-  for (let i = 0; i < arrayObj.length; i += 1) {
-    const obj = arrayObj[i].type;
-    for (let j = 0; j < obj.length; j += 1) {
-      if (obj[j] === elementType) {
-        arrayTipeFilter.push(arrayObj[i]);
-      }
-    }
+  let pokemon = [];
+  pokemon = arrayObj.filter(obj => obj.type.includes(elementType));
+  return pokemon;
+};
+export const searchPokemonByName = (arrayObj, input) => {
+  const pokemon = arrayObj.filter(poke => poke.name.startsWith(input.toLowerCase()));
+  return pokemon;
+};
+export const order = (arrayObj, orderBy) => {
+  let sortObj = '';
+  switch (orderBy) {
+    case 'a-z':
+      sortObj = arrayObj.sort((a, b) => {
+        if (a.name < b.name) return -1;
+        if (a.name > b.name) return 1;
+        return 0;
+      });
+      break;
+    case 'max-cp':
+      sortObj = arrayObj.sort((a, b) => a.stats['max-cp'] - b.stats['max-cp']);
+      break;
+    case 'max-hp':
+      sortObj = arrayObj.sort((a, b) => a.stats['max-hp'] - b.stats['max-hp']);
+      break;
+    case 'num':
+      sortObj = arrayObj.sort((a, b) => a.num - b.num);
+      break;
+    default:
   }
-  return arrayTipeFilter;
+  return sortObj;
 };
 
-/* const typeFilter = pokemonList.filter(
-  pokemon => pokemon.type[0] === elementTypeFilter || pokemon.type[1] === elementTypeFilter); */
-
-
-export const searchPokemonByName = (arrayObj, namePokemon) => {
-  const arrayName = [];
-  for (let i = 0; i < arrayObj.length; i += 1) {
-    if (arrayObj[i].name === namePokemon) {
-      arrayName.push(arrayObj[i]);
-    }
-  }
-  return arrayName;
-};
+export const changeOrder = array => array.reverse();
