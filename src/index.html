@@ -4,58 +4,46 @@
 <head>
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="icon" href="IMG/faviconPoke.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta charset="utf-8">
   <title>Data Lovers</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <div id="view1">
-    <section class="home">
-      <video autoplay muted loop id="myVideo">
-        <source type="video/mp4" src="IMG/pokeVideo.mp4">
-      </video>
-
-      <div class="content">
-        <h1>WELCOME</h1>
-        <p>Discover all the details of the best game in history, Pokemon Go and prepare to become a true Pokemon Master.
-        </p>
-        <button type="button" id="btnStart">Start</button>
+  <header>
+    <input type="checkbox" id="btn-menu">
+    <label for="btn-menu"><img class="img-menu" src="img/icon-menu.png"></label>
+    <nav class="elements-nav">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">POKÉDEX</a></li>
+        <li><a href="#">DICTIONARY</a></li>
+        <li><a href="#">CALCULATOR</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="pokedex">
+      <div class="bannerBox">
+        <picture class="banner">
+          <source media="(min-width: 2560px)" srcset="IMG/4k.png">
+          <source media="(min-width: 1440px)" srcset="IMG/lapLarge.png">
+          <source media="(min-width: 1024px)" srcset="IMG/lapLarge.png">
+          <source media="(min-width: 768px)" srcset="IMG/tab.png">
+          <source media="(min-width: 425px)" srcset="IMG/mobLarge.png">
+          <source media="(min-width: 375px)" srcset="IMG/mobMedium.png">
+          <img src="IMG/mobSmall.png" style="width:auto;">
+        </picture>
       </div>
-    </section>
-  </div>
 
-  <div id="view2" class="hide">
-    <header class="header" id="myHeader">
-        <input type="checkbox" id="btn-menu">
-        <label for="btn-menu"></label>
-        <nav class="navbar"> 
-          <ul class="list-elements-nav">
-            <li><a href="#" id="home">HOME</a></li>
-            <li><a href="#view2">POKÉDEX</a></li>
-            <li><a href="#view3">DICTIONARY</a></li>
-          </ul>
-        </nav>
-    </header>
 
-    <main class="contentMain">
-      <section class="banner">
-        <img src="IMG/banner2.png" id="banner">
-      </section>
-      <section class="pokedex">
-        <div class="container-btn-top">
-          <img src="IMG/btnTop.png" class="btn-top">
-        </div>
-        <div class="searcher comun">
-          <input type="search" id="search" class="search comun" placeholder="search by name" size="60">
-          <button class="btn-search comun bold" id="btn">Search</button>
-        </div>
-
-        <div class="menu-container comun bold">
+      <div class="menu-container comun bold">
+        <button class="all-pokemon bold">All pokemon</button>
+        <div>
           <label for="element-type-filter"> Type </label>
           <select id="element-type-filter">
-            <option value="all" selected>All</option>
+            <option value="all">All</option>
             <option value="bug">Bug</option>
             <option value="dark">Dark</option>
             <option value="dragon"> Dragon</option>
@@ -73,45 +61,75 @@
             <option value="psychic">Psychic</option>
             <option value="rock">Rock</option>
             <option value="steel">Steel</option>
-            <option value="water">Water</option>
+            <option value="water"> Water</option>
           </select>
-
-          <label for="orders"> Order </label>
-          <select id="order-function">
-            <option>CP</option>
-            <option>HP</option>
-            <option>IV</option>
+        </div>
+        <div>
+          <label for="order-by"> Order by </label>
+          <select id="order-by">
+            <option value="num">Num</option>
+            <option value="cp">CP</option>
+            <option value="hp">HP</option>
+          </select>
+        </div>
+        <div>
+          <label for="order"> Other </label>
+          <select id="order">
             <option>Weaknesses</option>
             <option>Resistence</option>
             <option>Egg</option>
           </select>
-
-          <label for="bys"> By </label>
-          <select id="by">
-            <option> ID </option>
-            <option>Highest to Lowest</option>
-            <option>Lowest to Highest </option>
-            <option>A - Z</option>
-            <option>Z - A</option>
-          </select>
         </div>
+      </div>
 
-        <p id="pokemones"> Pokemones </p>
-        <p id="quantity"></p>
-        <div id="container-card"></div>
-      </section>
+      <div class="searcher comun">
+        <div>
+          <input type="search" id="search" class="search comun" placeholder="search by name" autocomplete="off"
+            spellcheck="false" />
+          <img src="img/icon-search.png">
+        </div>
+      </div>
 
+      <div class="pokemones-quantity">
+        <div>
+          <p class="pokemones">Pokemones ( <spam id="quantity"></spam> )</p>
+        </div>
+        <div class="btn-order"></div>
+      </div>
+      <div id="container-card"></div>
+      <div class="container-modal"></div>
+      <!--<div class="modal">
+        </div>-->
+      <!--Boton para subir en la pantalla-->
+      <div class="container-btn-top">
+        <img src="img/btnTop.png" class="btn-top">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="copyright">
+      <h3 class="bold comun">© Copyright by Shirley Garrido Navarro Ft Sandra Zapata - 2020</h3>
+      <p>This prototype is intended as a guide for current and new Pokémon Go players who want to be a Pokémon master
+      </p>
+    </div>
+    <div class="team">
+      <h3 class="bold comun">Developer Team </h3>
+      <div>
+        <p> Sandra Zapata Quentasi</p>
+        <a href="https://github.com/szapataq"><img src="img/github.png"></a>
+      </div>
+      <div>
+        <p> Shirley Garrido Navarro</p>
+        <a href="https://github.com/Shirley-Garrido97"><img src="img/github.png"></a>
+      </div>
+    </div>
+    <div class="apps comun">
+      <a href="https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo"><img src="img/google-app.png"
+          alt="Google Play" /></a>
+      <a href="https://apps.apple.com/es/app/pokemon-go/id1094591345"><img src="img/AppStore.png" alt="App Store" /></a>
+    </div>
+  </footer>
 
-      <section id="view3" class="ocultar">
-        <p>Diccionario</p>
-      </section>
-    </main>
-
-
-    <footer class="footer">
-      <p class="piepag">© Copyright by Shirley Garrido Ft Sandra Zapata - 2020</p>
-    </footer>
-  </div>
   <script src="main.js" type="module"></script>
 </body>
 
