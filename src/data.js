@@ -1,33 +1,70 @@
-// estas funciones son de ejemplo
-/* export const example = () => 'example';
-export const searchPokemon = (listPokemon, input) => {
-  const pokemon = listPokemon.filter(poke => poke.toLowerCase().startsWith(input));
-  return pokemon;
-}; */
-
 export const filterByType = (arrayObj, elementType) => {
-  const arrayTipeFilter = [];
-  for (let i = 0; i < arrayObj.length; i += 1) {
-    const obj = arrayObj[i].type;
-    for (let j = 0; j < obj.length; j += 1) {
-      if (obj[j] === elementType) {
-        arrayTipeFilter.push(arrayObj[i]);
-      }
-    }
+  let pokemon = [];
+  pokemon = arrayObj.filter(obj => obj.type.includes(elementType));
+  return pokemon;
+};
+export const searchPokemonByName = (arrayObj, input) => {
+  const pokemon = arrayObj.filter(poke => poke.name.startsWith(input.toLowerCase()));
+  return pokemon;
+};
+export const order = (arrayObj, orderBy) => {
+  let sortObj = '';
+  switch (orderBy) {
+    case 'a-z':
+      sortObj = arrayObj.sort((a, b) => {
+        if (a.name < b.name) return -1;
+        if (a.name > b.name) return 1;
+        return 0;
+      });
+      break;
+    case 'max-cp':
+      sortObj = arrayObj.sort((a, b) => a.stats['max-cp'] - b.stats['max-cp']);
+      break;
+    case 'max-hp':
+      sortObj = arrayObj.sort((a, b) => a.stats['max-hp'] - b.stats['max-hp']);
+      break;
+    case 'num':
+      sortObj = arrayObj.sort((a, b) => a.num - b.num);
+      break;
+    default:
   }
-  return arrayTipeFilter;
+  return sortObj;
 };
 
-/* const typeFilter = pokemonList.filter(
-  pokemon => pokemon.type[0] === elementTypeFilter || pokemon.type[1] === elementTypeFilter); */
+export const changeOrder = array => array.reverse();
 
-
-export const searchPokemonByName = (arrayObj, namePokemon) => {
-  const arrayName = [];
-  for (let i = 0; i < arrayObj.length; i += 1) {
-    if (arrayObj[i].name === namePokemon) {
-      arrayName.push(arrayObj[i]);
+export const calculateStab = (attack, tipoPokemon) => {
+  const result = attack.map((obj) => {
+    const damage = Number(obj['base-damage']);
+    if (tipoPokemon.includes(obj.type)) {
+      const stab = Number((damage * 20) / 100 + damage);
+      return stab;
     }
-  }
-  return arrayName;
+    return damage;
+  });
+  return result;
+};
+
+export const calculateDps = (attack, tipoPokemon) => {
+  const result = attack.map((obj) => {
+    const damage = Number(obj['base-damage']);
+    const time = Number(obj['move-duration-seg']);
+    let dps = Math.round((damage / time));
+    if (tipoPokemon.includes(obj.type)) {
+      const stab = Number((damage * 20) / 100 + damage);
+      dps = Math.round((stab / time));
+    }
+    return dps;
+  });
+  return result;
+};
+
+export const calculateEps = (attack) => {
+  const result = attack.map((obj) => {
+    const energy = Number(obj.energy);
+    const time = Number(obj['move-duration-seg']);
+    const eps = Math.round(energy / time);
+    return eps;
+  });
+  return result;
 };
