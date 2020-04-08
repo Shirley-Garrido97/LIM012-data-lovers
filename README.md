@@ -50,6 +50,12 @@ Por defecto la data contiene una amplia diversidad de colores, es por ello que s
 
 ### 2.3 Vista Final Mobile 📲
 
+![3](https://user-images.githubusercontent.com/60928765/78805031-86a8a800-7986-11ea-97d2-7797effa0f74.png)
+![4](https://user-images.githubusercontent.com/60928765/78805051-8e684c80-7986-11ea-8772-c267f0735e6e.png)
+![5](https://user-images.githubusercontent.com/60928765/78805083-988a4b00-7986-11ea-9820-8c0a2b09bf1e.png)
+![6](https://user-images.githubusercontent.com/60928765/78805112-a2ac4980-7986-11ea-9b01-19ed9f28a60c.png)
+
+
 ### 2.4 Vista Final Tablet 📱
 
 ## 3. Investigación UX 🔍
