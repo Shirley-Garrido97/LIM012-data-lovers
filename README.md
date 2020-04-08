@@ -39,7 +39,12 @@ Esta página web es la nueva propuesta de actualización, para la página origin
 ### 2.1 Proceso Creativo de Diseño 👩🏻‍🎨🎨
 
 * Estilo
+
+Para el proyecto se opto por un estilo minimalista, ya que nuestro objetivo es poder transmitir la información de forma clara y precisa, y que a su vez pueda ser amigable ante la vista de nuestros usuarios, asi ellos puedan tener un rapido reconocimiento de la interfaz de nuestra pagina web.
+
 * Teoria de color
+
+Por defecto la data contiene una amplia diversidad de colores, es por ello que se se buscó dar un equilibrio, obtando por no sobrecargar nuestra pagina web con elementos visuales que no aporten valor a la funcionalidad de la pagina.
  
 ### 2.2 Vista Final Desktop 💻
 
