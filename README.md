@@ -48,6 +48,14 @@ Por defecto la data contiene una amplia diversidad de colores, es por ello que s
  
 ### 2.2 Vista Final Desktop 💻
 
+![7](https://user-images.githubusercontent.com/60928765/78810127-8cee5280-798d-11ea-8668-1124d00fad79.png)
+![8](https://user-images.githubusercontent.com/60928765/78810145-937cca00-798d-11ea-862d-6db8e2873105.png)
+![9](https://user-images.githubusercontent.com/60928765/78810163-9d9ec880-798d-11ea-9e37-aa8b62eac632.png)
+![10](https://user-images.githubusercontent.com/60928765/78810183-a2637c80-798d-11ea-9eb0-6ed1ae72bb9f.png)
+![11](https://user-images.githubusercontent.com/60928765/78810225-b313f280-798d-11ea-80d7-702c77f7b610.png)
+![12](https://user-images.githubusercontent.com/60928765/78810252-bc04c400-798d-11ea-85de-a10cd8eb8f06.png)
+
+
 ### 2.3 Vista Final Mobile 📲
 
 ![3](https://user-images.githubusercontent.com/60928765/78805031-86a8a800-7986-11ea-97d2-7797effa0f74.png)
