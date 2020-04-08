@@ -276,7 +276,7 @@ elemento y ataques)  PARA poder tener una mejor estrategia de que pokemon utiliz
 ### Git y GitHub
 - [✔️] Ejecutar comandos de git (add | commit | pull | status | push).
 - [✔️] Utilizar los repositorios de GitHub (clone | fork | gh-pages).
-- [✔️] Colaborar en Github (pull requests).
+- [❌] Colaborar en Github (pull requests).
 
 ### Buenas prácticas de desarrollo
 - [✔️] Organizar y dividir el código en módulos (Modularización).
